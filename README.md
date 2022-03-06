@@ -2,11 +2,11 @@
 
 <h1 align="center">Preview</h1>
 
-![Darkened Spotify](https://user-images.githubusercontent.com/78914154/155328411-f4758881-8b62-4e2d-b3c4-088e42dd4aa3.png)
+![Spotify Playlist section](https://user-images.githubusercontent.com/78914154/156914907-3872c59f-dd60-4438-9dfa-664ee7d3c345.png)
 
 <h1 align="center">📥 Installation</h1>
 
-You `WILL` need this to use this theme on spotify: https://github.com/khanhas/spicetify-cli
+You **WILL** need this to use this theme on spotify: https://github.com/khanhas/spicetify-cli
 
 Go into your `Themes` folder in `.spicetify` then do
 ```
@@ -23,9 +23,9 @@ spicetify apply
 
 📌 Important |
  ------------ |
-This is one of those "premium only" themes as I will not add support, fix or update the classes for ads because they'll try their hardest to make it a pain in the arse; it'd get tedious extremely quick.  |
-Something I'll say that some people may dislike or want to punch me for saying; I do use a "Spotify Premium Lifetime" service as paying the total price per month for no ads + downloading your playlist(s) to listen offline is a rip-off. |
-I have no intentions of using an extension with Spotify as I use it purely for music in the background. I don't use anything that shows lyrics, Reddit posts, makes it compact, or any other possible extension that sounds/seems like a good idea but, in my opinion, is worthless; however, if you do use extension(s), please let me know, and If it's an extension worthwhile in my opinion (reddit one is a no), I'll add support for it. |
+This is one of those **"Premium Only"** themes as I will not add support, fix or update the classes for ads because they'll try their hardest to make it a pain in the arse; it'd get tedious extremely quick.  |
+Something I'll say that some people may dislike or want to punch me for saying; I do use a *"Spotify Premium Lifetime"** service as paying the total price per month for no ads + downloading your playlist(s) to listen offline is a rip-off. |
+I have no intentions of using an extension with Spotify as I use it purely for music in the background. I don't use anything that shows lyrics, Reddit posts, makes it compact, or any other possible extension that sound/seem like a good idea but, in my opinion, is worthless; however, if you do use extension(s), please let me know, and If it's an extension worthwhile in my opinion (reddit one is a no), I'll add support for it. |
 
 ### ✅ Features
 * ✔️ Dark + Dark purple
