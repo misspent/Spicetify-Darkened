@@ -16,6 +16,7 @@ Open **Powershell** and run the following:
 ```
 spicetify config current_theme Darkened-spicetify
 spicetify apply
+y
 ```
 
 
