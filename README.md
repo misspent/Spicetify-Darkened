@@ -2,7 +2,7 @@
 
 <h1 align="center">Preview</h1>
 
-![Spotify Playlist section](https://user-images.githubusercontent.com/78914154/156914907-3872c59f-dd60-4438-9dfa-664ee7d3c345.png)
+![Spotify Playlist section New](https://user-images.githubusercontent.com/78914154/167723337-649fc9a7-2db3-4204-94c2-50a9b9aca81d.png)
 
 <h1 align="center">📥 Installation</h1>
 
