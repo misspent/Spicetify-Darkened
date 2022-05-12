@@ -20,7 +20,6 @@ spicetify apply
 y
 ```
 
-
 <h1 align="center">📝 Information</h1>
 
 📌 Important |
@@ -39,3 +38,8 @@ I have no intentions of using an extension with Spotify as I use it purely for m
 
 As usual, I decided to take what Nyria made and make my "own" version of it. Moreover, I also took some of his installation section as I'm lazy, and he did it the way I would've done it. If you can't tell already, his themes are to die for, but I like them dark, not blue/bright. Thank you Nyria and keep up the great work!
 * The original/base theme: [Nyria's Theme](https://github.com/NYRI4/Comfy-spicetify).
+
+<h1 align="center", margin= "0">📷 More Screenshots</h1>
+
+![Spotify Your Library section](https://user-images.githubusercontent.com/78914154/168083357-154390cd-733b-4685-af1f-bb55dc75245f.png)
+![Spotify Search section](https://user-images.githubusercontent.com/78914154/168083373-4f067378-7dce-4dbb-a1ce-c35c2db78f90.png)
