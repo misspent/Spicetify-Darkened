@@ -6,9 +6,9 @@
 
 <h1 align="center">📥 Installation</h1>
 
-You **WILL** need this to use this theme on spotify: https://github.com/khanhas/spicetify-cli
+<h2 align="center"> Required: https://spicetify.app/</h2>
 
-Go into your `Themes` folder in `.spicetify` then do
+Make sure [Git](https://git-scm.com/) is installed, then go into your `Themes` folder in `.spicetify` then do:
 ```
 git clone https://github.com/misspent/Darkened-spicetify
 ```
