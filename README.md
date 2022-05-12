@@ -32,7 +32,7 @@ I have no intentions of using an extension with Spotify as I use it purely for m
 * ✔️ Dark + Dark purple
 * ✔️ I Use Spotify daily, so it *should* stay up-to-date
 * ❌ Premium only (It may break/look odd without, I'm not sure)
-* ⭕ Might start adding support to extension at some point regardless of whether or not people request
+* ⭕ Might start adding support for extension at some point regardless of whether or not people request
 
 <h1 align="center">📜 Credits</h1>
 
