@@ -6,8 +6,7 @@
 
 <h1 align="center">📥 Installation</h1>
 
-⭐ You WILL need this to use this theme on spotify: [Spicetify](https://github.com/khanhas/spicetify-cli)
-
+⭐ You **WILL** need this to use this theme on spotify: [Spicetify](https://spicetify.app/) | [Spicetify GitHub](https://github.com/khanhas/spicetify-cli)
 
 Make sure [Git](https://git-scm.com/) is installed, then go into your `Themes` folder in `.spicetify` then do:
 ```
@@ -22,17 +21,24 @@ y
 
 <h1 align="center">📝 Information</h1>
 
+### 🔨 Configure
+* Edit `user.css` for additions, removals or to do wizard stuff.
+* Edit `color.ini` for colours.
+
+### ✅ Features
+* ✔️ Customizable
+* ✔️ Dark + Dark purple
+* ✔️ Bookmark extension support
+* ✔️ Doesn't change artists banners
+* ✔️ It *should* stay up-to-date as I use Spotify daily
+* ❌ Premium only (It may break/look odd without, I'm not sure)
+* 📅 Might start adding support for extension at some point regardless of whether or not people request
+
 📌 Important |
  ------------ |
 This is one of those **"Premium Only"** themes as I will not add support, fix or update the classes for ads because they'll try their hardest to make it a pain in the arse; it'd get tedious extremely quick.  |
 Something I'll say that some people may dislike or want to punch me for saying; I do use a **"Spotify Premium Lifetime"** service as paying the total price per month for no ads + downloading playlist(s) to listen to offline is a rip-off. |
 I have no intentions of using odd extensions with Spotify as I use it purely for music in the background. I don't use anything that shows lyrics, Reddit posts, makes it compact, or any other possible extension that sound/seem like a good idea but, in my opinion, are worthless; however, if you do use extension(s), please let me know, and If it's an extension worthwhile in my opinion, I'll add support for it. |
-
-### ✅ Features
-* ✔️ Dark + Dark purple
-* ✔️ I Use Spotify daily, so it *should* stay up-to-date
-* ❌ Premium only (It may break/look odd without, I'm not sure)
-* ⭕ Might start adding support for extension at some point regardless of whether or not people request
 
 <h1 align="center">📜 Credits</h1>
 
