@@ -41,6 +41,6 @@ As usual, I decided to take what Nyria made and make my "own" version of it. Mor
 
 <h1 align="center", margin= "0">📷 More Screenshots</h1>
 
-![Spotify Artists Profile section](https://user-images.githubusercontent.com/78914154/168273411-a2d6b3e5-d425-4bb1-8dbf-98b7dd757472.png)
+![Spotify Artists Profile section](https://user-images.githubusercontent.com/78914154/168274765-2b852cb8-96b8-4fd6-b0fd-bb772eeec0fb.png)
 ![Spotify Your Library section](https://user-images.githubusercontent.com/78914154/168083357-154390cd-733b-4685-af1f-bb55dc75245f.png)
 ![Spotify Search section](https://user-images.githubusercontent.com/78914154/168083373-4f067378-7dce-4dbb-a1ce-c35c2db78f90.png)
