@@ -1,0 +1,627 @@
+/* Noteless's optional/changeable? ones you might want to mess with */
+
+.G1W6k59msDX3wNFCJ1mb {background: #252525;} /* Buttons */
+.os-scrollbar-handle {display: none !important;} /* Scrollbar */
+.G1W6k59msDX3wNFCJ1mb:hover, .G1W6k59msDX3wNFCJ1mb.X1PI4ZcmJchyHhBzbrVI {border-color: transparent;} /* Certain buttons | Default: var(--spice-button) */
+.progress-bar__slider{display: none} /* Progress bar slider shape with border radius [Change to: "block" for slider] */
+/* 1st = search tab section | 2nd = Create playlist icon | 3rd = Liked songs section | 4th = Your Episodes Icon | 5th = Delete ONLY if you remove 2,3 & 4. ["none" = remove] ["relative" = normal] */
+[href="/search"], .main-createPlaylistButton-createPlaylistIcon, .main-likedSongsButton-likedSongsIcon, .main-yourEpisodesButton-yourEpisodesIcon,
+div.GlueDropTarget.personal-library {display: relative;}
+/* Edit modal focus colour when you change name of playlist/description */
+.main-playlistEditDetailsModal-textElement:focus {
+  background-color: #7027de33; /* Change this one */
+  border: 1px solid var(--spice-button);}
+/* hovering over songs in your playlists (tracklist) */
+.main-trackList-trackListRow:hover, .main-trackList-trackListRow.main-trackList-selected, .main-trackList-trackListRow.main-trackList-selected:hover {background-color: #7127de33;}
+
+/*
+\==================================================================================\
+\                               Noteless's main tweaks                             \
+\==================================================================================\
+*/
+
+/* Does not mess with artists background; only changes colour of playlist/other backgrounds behind cover photo & name */
+#main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div.contentSpacing.main-entityHeader-container.main-entityHeader-nonWrapped > div {background: var(--spice-misc) !important;}
+
+[href="/spicetify-marketplace"] {display: none;}
+.Ft1cMGlqDsCbqmXQyeKN {background: var(--spice-background)} /* Background of artist? */
+.main-actionBar-ActionBar, .Fz5_rAxpenrV3rKWvEE0 {background: var(--spice-secondary);} /* Other background */
+:root .Root__nav-bar {background: var(--spice-other) !important; border-right: 1px solid var(--spice-shadow);} /* Sidebar */
+.oq1ci28WPaRsWkvRiB_J .Ws8Ec3GREpT5PAUesr9b .CmkY1Ag0tJDfnFXbGgju {margin-top: 15px !important;} /* Playlist cover photo position */
+.main-entityHeader-headerText {margin-top: 20px !important;} /* Playlist cover photo position on artists page */
+.main-entityHeader-imageContainer .CmkY1Ag0tJDfnFXbGgju .main-yourEpisodes-coverContainer {margin-top: 30px !important;} /* Playlist cover photo Your Episodes Page */
+.kHu_FTRgoBLSLeAJtyKY {display: none;} /* removes "cover/change photo mask when hovering over icon in playlist & others */
+.We1fExPHxLIRmV0rZGNo, .bIdE4uyGCyx2bz0mzF4Z, .I1cppg1eJlgG6FCdhjO3, .euOnte9wvOF0D_SGxEZ9, .sbU_cIh6kQUanX3IUWD8, .main-view-container, .ojLwFoBNBM6cW7_RpeAN, .rezqw3Q4OEPB1m4rmwfw, .main-home-homeHeader, .main-actionBarBackground-background, .iB16LxoPzDeVZo8zPhPQ {background: var(--spice-secondary) !important;} /* Main colours */
+.main-trackList-trackList {background-color: var(--spice-other); border-radius: var(--border-radius);} /* Tracklist background in your playlist (title | album | date added) */
+.Root__top-bar {background-color: var(--spice-topbar) !important; border-bottom: 1px solid none;} /* Topbar */
+.main-topBar-overlay, .main-topBar-background {background: var(--spice-other) !important; opacity: 0 !important;} /* background behind playlist icon, description, name etc (top) */
+:root .Root__nav-bar .main-rootlist-rootlist .os-content {padding: 0px !important;} /* whole "playlist" sidebar container */
+.main-card-cardMetadata, .main-card-draggable, .main-heroCard-card, .Z35BWOA10YGn5uc9YgAp {background: var(--spice-card);} /* Delete if you have to you (card info container colour + artist background big container) */
+/* Home "Good Afternoon" Pause/Play button container  */
+.Kcb74zm1aMqGfPxTwO5s {border-radius: var(--border-radius); box-shadow: 0 0px 8px 8px rgba(var(--spice-rgb-shadow),.5);}
+.main-userWidget-box, .main-topBar-historyButtons .main-topBar-button {background-color: var(--spice-navbar-buttons);}
+/* Following/Follow button colours */
+#main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBar-ActionBar.contentSpacing > div > button.aAr9nYtPsG7P2LRzciXc {background: var(spice-other);} /* Not following */
+#main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBar-ActionBar.contentSpacing > div > button.aAr9nYtPsG7P2LRzciXc:hover {border-color: forestgreen;} /* Not following border color*/
+#main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBar-ActionBar.contentSpacing > div > button.aAr9nYtPsG7P2LRzciXc.fBTYgGyvIbHizHIj7AAX {background: forestgreen;} /* Following */
+/* .aAr9nYtPsG7P2LRzciXc:hover, .fBTYgGyvIbHizHIj7AAX {border: 0px;} */
+/* Playing bar Cover photo when you press the up arrow to move it | makes it so the song name & artists are in correct spot */
+:root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying.main-nowPlayingWidget-coverExpanded {transform: translateX(-72px);}
+
+
+/*
+\==================================================================================\
+\                         Noteless's main "other" colours                          \
+\==================================================================================\
+*/
+
+:root .Root__nav-bar .main-rootlist-rootlist .os-content::before {background: var(--spice-topbar); color: var(--spice-button); border-top: 1px solid var(--spice-shadow);} /* "playlists title container */
+:root .main-trackList-rowHeartButton *:not([fill=none]), :root .control-button-heart *:not([fill=none]) {color: var(--spice-button) !important; fill: var(--spice-button) !important;} /* Heart */
+:root .playlist-playlist-playlistContent .main-addButton-active, :root .playlist-playlist-playlistContent .main-addButton-active:focus, :root .playlist-playlist-playlistContent .main-addButton-active:hover {color: var(--spice-button);}
+/* Colour's that don't "really" need changing*/
+.W5JUlxsbMsaSi4DGjoPN, .W5JUlxsbMsaSi4DGjoPN {background: linear-gradient(149.46deg,#450af5,#8e8ee5 99.16%);} /* Liked songs background in the "Your Library" section */
+.oT0etGSj2ty3qjhnnd4c {background: linear-gradient(.316turn,#00644e 50.57%,#27856a);} /* Your Episodes background in the "Podcasts" section */
+._fvd5Owa47kK9H48h7mL {background: #252525;  border-radius: var(--border-radius); color: #909090;} /* Create playlist icon */
+.encore-dark-theme .encore-bright-accent-set:hover {background-color: #802efc; border-radius: var(--border-radius);} /* Play buttons hover*/
+.main-likedSongsButton-likedSongsIcon {background: linear-gradient(135deg, var(--spice-button), #181818); border-radius: var(--border-radius);} /* Liked songs icon */
+/* Other */
+.kNBJcQ {justify-content: center; background: var(--spice-main);} /* Custom order dropdown "sort by" container */
+#main > div > div.Root__top-container > div.Root__top-bar > header > div.main-topBar-topbarContentWrapper > div > div > div > span > svg > path {color: grey;} /* Search bar icon */
+.encore-dark-theme .encore-bright-accent-set, .main-playPauseButton-button {background-color: var(--spice-button); border-radius: var(--border-radius);} /* Play buttons */
+.encore-dark-theme .encore-inverted-light-set {background-color: var(--spice-button); border-radius: var(--border-radius);} /* Settings icon in friends activity */
+.main-entityHeader-creatorWrapper a {color: var(--spice-button)!important;} /* Playlist creator/artist colour */
+.main-trackList-trackListRow.main-trackList-selected:hover {border-color: var(--spice-button);} /* clicking on a song container outlines */
+.STDuzt77yRCueC4Ohenl .bRiqwU {padding: 5px; background-color: var(--spice-shadow)}
+html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-color: var(--spice-button)}
+.Z35BWOA10YGn5uc9YgAp:hover {background-color: var(--spice-button);}
+.OGlItsrPs4zmZvTe8uCl, .oaNVBli46GtVjaQKB15g {background-color: var(--spice-button);}
+.main-card-DownloadStatusIndicator {color: var(--spice-button);} /* Download icon colour */
+.main-entityHeader-shadow { /* drop shadow behind playlist cover photo */
+/*   box-shadow: 0 0.5px 30px #202020;*/
+	box-shadow: 0 0.5px 80px rgba(var(--spice-rgb-shadow),.5);
+}
+/* Bookmark extension container */
+:root #bookmark-menu .bookmark-filter {background-color: var(--spice-card); border-radius: var(--border-radius);}
+.bookmark-card {background: var(--spice-misc); padding: 12px;}
+
+/*
+\==================================================================================\
+\                            Noteless's whatever tweaks                            \
+\==================================================================================\
+*/
+
+.main-dropDown-dropDown, .LD4kJcnhgnIGIqayNLFX .u9LQkNKePnbYghLuVYIE .kmZUfpW_5VwiPUSq5zQ2, .main-contextMenu-menu, .a2ruVaZt_DdrdHz3GqgU, .x-categoryCard-CategoryCard, .JdlKTdpMquftpMwwegZo, .main-heroCard-card, .main-trackList-trackListRow, .pI6Qf_QH5K9jtZ1uwmYf, .L4WROPnQ7MPGhylvVyxd, .queue-tabBar-headerItemLink, .oQGUr6fmgmlPARqBIeBa, .PzcmS_Z8j0D6n3ZEmv20, .xaKMcFuZK3bEXbt3bPdg, .IyZpbhJE52K9fkJmGbAj, .main-playlistEditDetailsModal-container, .main-playlistEditDetailsModal-descriptionTextarea, .main-buttons-button, .wCl7pMTEE68v1xuZeZiB:focus, .wCl7pMTEE68v1xuZeZiB:hover, .Z35BWOA10YGn5uc9YgAp, .Z35BWOA10YGn5uc9YgAp .zXwER4Lsqq_e7fVVaPkZ, .Z35BWOA10YGn5uc9YgAp .WWDxafTPs4AgThdcX5jN, .TT1tIewS2iI8Uz8kLuQB, .main-yourEpisodes-coverContainer, .YbDIZ84mS7tzHr1tgWE9, .OGlItsrPs4zmZvTe8uCl, .x-progressBar-progressBarBg, .w699O0LgQRghXyl3bs9u, .EJ0w02DsWAFRB6erLz4g, .eRA1lFgEi72O3fgeEpwl, .dLvkpxjslIRQbk1CwUmA.Q4Tjljkt3LIpk7eBBKgp, .dLvkpxjslIRQbk1CwUmA:focus, .dLvkpxjslIRQbk1CwUmA:hover {border-radius: var(--border-radius) !important;} /* Border radius in settings & Friends activity & Context menu (click settings) + Search section containers + Your library container borders + Your episodes icon */
+.x-progressBar-progressBarBg, .w6j_vX6SF5IxSXrrkYw5 {background-color: var(--spice-shadow);} /* Progress bar background * playlist/song filter button */
+.wCkjuzeyTEYt_GDNp_O7 {background-color: var(--spice-background);  border-radius: var(--border-radius); color: var(--spice-subtext);} /* Delete channel container */
+.K8PtC1Way9XetxDGwCGx {background-color: var(--spice-other); border-radius: var(--border-radius); color: var(--spice-subtext);} .awGNDbf1c8TGBAFR0pv8 {margin-top: 10px;} .hmgUGT {background-color: var(--spice-shadow)} /* Delete playlist container */
+.qnqPMfJCwV595J_5wI7e .main-type-mestoBold, .main-playButton-button, .J9FWpUydEwGBcWbrope_ {color: var(--spice-button) !important;} /* Creator of playlist name, colour & playing song icon on playlist when listening & Playing song icon */
+:root .Root__now-playing-bar .main-nowPlayingBar-container {background-color: transparent;} /* Playing bar main container (border at top of container etc) */
+.Root__now-playing-bar {background-color: var(--spice-background);} /* Playing Bar | background colour */
+.eSMjmiD29Ox35O95waw6:after, .eSMjmiD29Ox35O95waw6:before {display: none;} /* Playing Bar gradient bars at either end of the name of song + artist... */
+.playback-bar__progress-time-elapsed, :root .Root__now-playing-bar .playback-bar > div:last-of-type {margin-bottom: -5px !important;} /* Current song + song end timers above song bar (Example: 02:06) */
+.main-buddyFeed-buddyFeed {box-shadow: none;} /* Box shadow to the left of friends container */
+.main-rootlist-rootlistItem {padding-left: 8px; padding-right: 8px;} /* Playlist/Folder container */
+:root .Root__nav-bar ul.main-navBar-entryPoints > div {padding-left: 50px !important;} /* Icons in sidebar position (add playlist, liked & your episodes)  */
+:root .Root__nav-bar ul.main-navBar-entryPoints {padding: 0 0px !important; background: var(--spice-other) !important;} /* "Home, Search, Your Library" container */
+.SPnqZe4gMh0WYyRrm5OE {background: #131313; color: var(--spice-text); border-radius: var(--border-radius);} /* Arrow icon in Search */
+.dIwMadpRrW1PwEwEeAbN, .x-searchInput-searchInputInput {background-color: #111111; color: var(--spice-subtext)!important;}  /* Search bar container */
+.x-searchInput-searchInputClearButton {color: var(--spice-subtext)!important; background: transparent!important;} /* Search bar close button */
+
+/* INFO: --> Title center, padding and background of playlist, albums containers, etc | Looks dope imo; delete if you don't like | Remove: "[data-testid="artist-page"] " to make it work for every other title etc  <-- */
+
+/* Good evening container
+.nlOU1unbFAd7ZHyeSMTH {
+  background: var(--spice-other);
+  padding: 12px;
+}
+*/
+
+/* Popular container */
+.l6YAKmkzQj4WAyn82MP6 {
+  text-align: center;
+  background: var(--spice-card);
+  margin: 0px;
+}
+
+/* Artist Pick containers */
+.L0q_KvxXxztNsDDAZD1I {
+  margin: 0 0 0px;
+  text-align: center;
+  background: var(--spice-card);
+}
+.O2RHiPFy3FrB12lXkmND {
+  justify-content: center;
+  background: var(--spice-other);
+  padding-top: 8px;
+}
+.EJ0w02DsWAFRB6erLz4g {
+  margin-left: 0px;
+}
+
+/* All other category containers */
+[data-testid="artist-page"] .main-shelf-topRow {
+  margin-bottom: 0px; 
+  text-align: center;
+  align-items: center;
+  background: var(--spice-card);
+}
+.uyUZ5yITUwt5m8vF6jD3 {
+ background: var(--spice-other);
+ padding: 12px 0px 0px 12px;
+}
+.uyUZ5yITUwt5m8vF6jD3 {
+  margin-bottom: 0px;
+}
+[data-testid="artist-page"] .main-shelf-shelfGrid {
+  background: var(--spice-other);
+  padding: 12px;
+}
+/* See All button container */
+.main-shelf-seeAll {
+  margin-left: 0px;
+  margin-right: 8px;
+}
+
+/* About container */
+.GQoJQ78ND8FeaTO7EH9C {
+  margin: 0px;
+  text-align: center;
+  background: var(--spice-card);
+}
+.Ef2hRT89B35Sto1u9wUK {background: var(--spice-other);}
+
+/* Offers container */
+.KS5BSNUoDE2OWIjrG9XL {
+  background: var(--spice-other);
+  margin: 0px;
+}
+
+/* On tour container */
+.EJ0w02DsWAFRB6erLz4g {
+  background: var(--spice-other);
+}
+
+.l6YAKmkzQj4WAyn82MP6 {
+  text-align: center;
+  background: var(--spice-card);
+  margin: 0px;
+}
+
+/*
+\==================================================================================\
+\                              All Nyria's shenanigans                             \
+\==================================================================================\
+*/
+
+:root .Root__main-view #mainImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  will-change: transform;
+  z-index: -1;
+  transition: 300ms background-image ease-in-out;
+  filter: blur(4px);
+}
+:root .Root__main-view .main-view-container__scroll-node-child {
+  padding-bottom: 0;
+}
+:root .Root__main-view .main-card-card {
+  border-radius: var(--border-radius);
+  padding: 0;
+  overflow: hidden;
+}
+:root .Root__main-view .main-card-card .main-card-imageContainer {
+  margin-bottom: -4px;
+}
+:root .Root__main-view .main-card-card .main-card-imageContainer .main-cardImage-circular, :root .Root__main-view .main-card-card .main-card-imageContainer img {
+  border-radius: 0;
+}
+:root .Root__main-view .main-card-card .main-card-cardMetadata {
+  padding: 16px;
+}
+:root .Root__main-view section.playlist-playlist-playlist .main-entityHeader-container .main-entityHeader-backgroundColor {
+  background: none !important;
+}
+:root .Root__main-view .main-entityHeader-container {
+  padding: 32px;
+  justify-content: center;
+}
+:root .Root__main-view .main-entityHeader-container > div:nth-last-of-type(2) {
+  align-self: center;
+}
+:root .Root__main-view .main-entityHeader-container > div:nth-last-of-type(2) + .main-entityHeader-headerText {
+  flex: unset;
+  justify-content: center;
+}
+:root .Root__main-view .main-entityHeader-container > div:nth-last-of-type(2) + .main-entityHeader-headerText .main-entityHeader-title h1 {
+  font-size: 50px !important;
+}
+:root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent {
+  background: linear-gradient(rgba(var(--spice-rgb-shadow), 0.6) 0, var(--spice-main) 232px), var(--background-noise);
+}
+:root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-actionBar-ActionBar {
+  padding: 8px 16px;
+}
+:root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-actionBar-ActionBar .main-playButton-PlayButton {
+  margin-top: -24px;
+  margin-left: 8px;
+  margin-right: 22px;
+}
+@media (min-width: 1024px) {
+  :root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-actionBar-ActionBar .main-playButton-PlayButton {
+    margin-left: 24px;
+  }
+}
+:root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-trackList-trackListRowGrid {
+  grid-template-columns: [first] 6fr [var1] 4fr [var2] 3fr [last] minmax(120px, 1fr) !important;
+  border-radius: var(--border-radius);
+  border: none;
+  padding-left: 10px;
+  transition: 200ms background-color;
+}
+:root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-trackList-trackListRowGrid.main-trackList-trackListRow > .main-trackList-rowSectionIndex {
+  position: absolute;
+  z-index: 1000;
+  top: 8px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  text-indent: -1000px;
+}
+:root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-trackList-trackListRowGrid .main-trackList-rowSubTitle a, :root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-trackList-trackListRowGrid .main-trackList-rowSectionVariable a {
+  transition: 200ms color;
+}
+:root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-trackList-trackListRowGrid:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+:root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-trackList-trackListRowGrid.vMOFJ7EasQXUloRrStEe {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+:root .Root__main-view section.playlist-playlist-playlist .playlist-playlist-playlistContent .main-trackList-trackListHeader {
+  display: none;
+}
+
+:root .Root__nav-bar {
+  overflow: hidden;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints {
+  column-gap: 16px;
+  padding: 0 12px;
+  box-sizing: content-box;
+  transition: 350ms background-color;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  margin: 24px 12px 0 12px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list {
+  display: grid;
+  grid-template-areas: "home home home home" "search search search search" "collection collection collection collection" "lyrics-plus lyrics-plus lyrics-plus lyrics-plus" "reddit reddit reddit reddit" "new-releases new-releases new-releases new-releases" "add tracks episodes .";
+  grid-template-columns: 25px 25px 25px 1fr;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list li[data-id="/"] {
+  grid-area: home;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list li[data-id="/search"] {
+  grid-area: search;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list li[data-id="/collection"] {
+  grid-area: collection;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list li[data-id="/lyrics-plus"] {
+  grid-area: lyrics-plus;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list li[data-id="/reddit"] {
+  grid-area: reddit;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list li[data-id="/new-releases"] {
+  grid-area: new-releases;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list div[data-id="/add"] {
+  grid-area: add;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list div[data-id="/collection/episodes"] {
+  grid-area: episodes;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list div[data-id="/collection/tracks"] {
+  grid-area: tracks;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints > li {
+  padding: 0;
+  margin: 0 -12px;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints > li a {
+  padding: 0 12px;
+  border-radius: 0;
+  background-color: transparent;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints > li a svg {
+  display: none;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints > li:first-child a {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints > div {
+  padding: 0;
+  margin: 2px 0;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints > div > *.active {
+  background: none;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints > div button, :root .Root__nav-bar ul.main-navBar-entryPoints > div a {
+  padding: 0;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints > div button div, :root .Root__nav-bar ul.main-navBar-entryPoints > div a div {
+  margin-right: 0;
+  border-radius: var(--border-radius);
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints > div button span, :root .Root__nav-bar ul.main-navBar-entryPoints > div a span {
+  display: none;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/"] .home-icon {
+  background: url("https://i.imgur.com/jqDH9TQ.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/"] .home-active-icon {
+  background: url("https://i.imgur.com/60h58oZ.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/search"] .search-icon {
+  background: url("https://i.imgur.com/UV5JQpE.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/search"] .search-active-icon {
+  background: url("https://i.imgur.com/CTVdQ3d.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/collection"] .collection-icon {
+  background: url("https://i.imgur.com/alXGfxW.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/collection"] .collection-active-icon {
+  background: url("https://i.imgur.com/SzvrAfr.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/lyrics-plus"] .collection-icon {
+  background: url("https://i.imgur.com/91fuU3P.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/lyrics-plus"] .collection-active-icon {
+  background: url("https://i.imgur.com/EgRCYe8.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/reddit"] .collection-icon {
+  background: url("https://i.imgur.com/6N6ev2V.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/reddit"] .collection-active-icon {
+  background: url("https://i.imgur.com/UENFDdo.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/new-releases"] .collection-icon {
+  background: url("https://i.imgur.com/BgkCeDG.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href="/new-releases"] .collection-active-icon {
+  background: url("https://i.imgur.com/CTRVDwF.png") center/cover no-repeat;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div {
+  display: grid;
+  grid-template-areas: "add tracks ." "playlists playlists playlists";
+  grid-template-columns: 25px 25px 1fr;
+  grid-template-rows: 25px 1fr;
+  column-gap: 16px;
+  margin: 12px 12px 0 12px;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div > div:first-child {
+  grid-area: add;
+  margin: -6px 0 0 12px;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div > div:first-child::before {
+  content: "";
+  position: absolute;
+  width: calc(100% - 24px);
+  height: 40px;
+  margin: -6px 0 0 -12px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div > div:first-child button {
+  padding: 0;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div > div:first-child button .main-createPlaylistButton-createPlaylistIcon {
+  border-radius: var(--border-radius);
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div > div:nth-child(2) {
+  grid-area: tracks;
+  margin: -6px 0 0 12px;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div > div:nth-child(2) a {
+  padding: 0;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div > div:nth-child(2) a .main-likedSongsButton-likedSongsIcon {
+  border-radius: var(--border-radius);
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div > div:last-child {
+  grid-area: playlists;
+}
+:root .Root__nav-bar .main-rootlist-rootlistDividerContainer {
+  display: none;
+}
+:root .Root__nav-bar .main-rootlist-rootlist {
+  margin-top: 0;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content::before {
+  content: "Playlists";
+  visibility: visible;
+  width: unset;
+  height: unset;
+  line-height: unset;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"]:not(#spicetify-playlist-list) {
+  margin: 12px 0 0 0;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper {
+  height: unset !important;
+  contain: unset !important;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem {
+  padding: 0;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink {
+  padding: 4px 12px;
+  box-sizing: content-box;
+  transition: 150ms background-color;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink + button {
+  border-radius: 0 !important;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink + div > button {
+  margin-left: 0;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-rootlistItemLinkActive, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink:focus, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink:hover, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-rootlistItemLinkActive + *, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink:focus + *, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink:hover + * {
+  background-color: #5c6eb12a;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-statusIcons:not(:empty) {
+  margin-inline-start: 0;
+  padding: 4px 12px;
+  transition: 150ms background-color;
+}
+:root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] .main-rootlist-wrapper .main-rootlist-rootlistItem .main-rootlist-expandArrow {
+  height: unset;
+  margin-left: 0;
+  padding: 4px 12px;
+  transition: 150ms background-color;
+}
+:root .Root__nav-bar .main-coverSlotExpanded-container .cover-art .cover-art-image {
+  border-radius: 0;
+}
+
+:root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar {
+  box-sizing: content-box;
+  padding-bottom: 16px;
+}
+:root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying.main-nowPlayingWidget-coverExpanded {
+  transform: translateX(-100px);
+}
+:root .Root__now-playing-bar .playback-bar {
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: "time-left time-right" "bar bar";
+  bottom: 0;
+}
+:root .Root__now-playing-bar .playback-bar .saber-hilt {
+  height: 0;
+}
+:root .Root__now-playing-bar .playback-bar .playback-progressbar {
+  grid-column: 1/3;
+  grid-area: bar;
+}
+:root .Root__now-playing-bar .playback-bar .playback-progressbar > div > div {
+  --progress-bar-height: 12px;
+  --progress-bar-radius: 0;
+}
+:root .Root__now-playing-bar .playback-bar .playback-progressbar > div > div > div > div { /* #ab7fec goes here and in color.ini "Button" & "Notification" for a good light purple */ 
+  width: 105%;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, var(--spice-button) 93%, transparent 100%);
+}
+:root .Root__now-playing-bar .playback-bar > div:first-of-type {
+  grid-area: time-left;
+}
+:root .Root__now-playing-bar .playback-bar > div:last-of-type {
+  grid-area: time-right;
+}
+:root .Root__now-playing-bar .playback-bar button {
+  width: 0;
+}
+
+.x-settings-container {
+  max-width: unset;
+}
+.x-settings-container .x-toggle-indicatorWrapper {
+  border-radius: var(--border-radius);
+}
+
+:root .Root__top-bar header button {
+  border-radius: var(--border-radius);
+}
+:root .Root__top-bar header button[title="Popup Lyrics"] {
+  background-image: url("https://i.imgur.com/91fuU3P.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+:root .Root__top-bar header button[title="Popup Lyrics"] svg {
+  display: none;
+}
+:root .Root__top-bar header .main-topBar-historyButtons button, :root .Root__top-bar header .lyrics-tabBar-active {
+  background-color:  rgb(10,10 10);
+}
+:root .Root__top-bar header .main-topBar-UpgradeButton {
+  font-size: 0;
+  overflow: hidden;
+  background: url("https://i.imgur.com/nzAfcIL.png") 50%/contain no-repeat;
+  border: none;
+  padding: 5px;
+  box-sizing: content-box;
+}
+:root .Root__top-bar header .main-userWidget-box {
+  height: unset;
+  padding: 0;
+  gap: 12px;
+}
+:root .Root__top-bar header .main-userWidget-box .main-avatar-avatar {
+  width: 40px !important;
+  height: 40px !important;
+}
+@media (min-width: 1024px) {
+  :root .Root__top-bar header .main-userWidget-box .main-avatar-avatar .main-avatar-image {
+    border-radius: var(--border-radius) 0 0 var(--border-radius)
+    padding-top: 10px!important;
+    height: 142% !important;
+  }
+}
+:root .Root__top-bar header .main-userWidget-box .main-userWidget-displayName {
+  padding-right: 12px;
+}
+
+:root {
+  --border-radius: 0px;
+}
+:root.queue-tabBar-headerItemLink:focus, .queue-tabBar-headerItemLink:hover {
+	border-radius: var(--border-radius);
+}
+:root button, :root input, :root img {
+  border-radius: var(--border-radius);
+}
+:root #context-menu {
+  overflow: hidden;
+}
+:root #context-menu ul {
+  padding: 0;
+  background-color: var(--spice-player);
+}
+:root #context-menu ul button, :root #context-menu ul a {
+  border-radius: 0;
+}
+:root #context-menu ul button::before, :root #context-menu ul button::after, :root #context-menu ul a::before, :root #context-menu ul a::after {
+  content: none;
+}
+:root #context-menu ul button:not(.main-contextMenu-disabled):focus, :root #context-menu ul button:not(.main-contextMenu-disabled):hover, :root #context-menu ul button[aria-expanded=true], :root #context-menu ul a:not(.main-contextMenu-disabled):focus, :root #context-menu ul a:not(.main-contextMenu-disabled):hover, :root #context-menu ul a[aria-expanded=true] {
+  background-color: #5c6eb12a;
+  transition: 150ms background-color;
+}
+:root #bookmark-menu {
+  background-color: var(--spice-player);
+  border-radius: var(--border-radius);
+}
+:root #bookmark-menu button, :root #bookmark-menu a {
+  border-radius: 0;
+}
+:root #bookmark-menu button::before, :root #bookmark-menu button::after, :root #bookmark-menu a::before, :root #bookmark-menu a::after {
+  content: none;
+}
+:root #bookmark-menu button:not(.main-contextMenu-disabled):focus, :root #bookmark-menu button:not(.main-contextMenu-disabled):hover, :root #bookmark-menu button[aria-expanded=true], :root #bookmark-menu a:not(.main-contextMenu-disabled):focus, :root #bookmark-menu a:not(.main-contextMenu-disabled):hover, :root #bookmark-menu a[aria-expanded=true] {
+  background-color: #5c6eb12a;
+  transition: 150ms background-color;
+}
