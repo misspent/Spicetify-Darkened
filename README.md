@@ -14,7 +14,7 @@ git clone https://github.com/misspent/Darkened-spicetify
 ```
 Open **Powershell** and run the following:
 ```
-spicetify config current_theme Darkened-spicetify
+spicetify config current_theme Spicetify-Darkened
 spicetify apply
 y
 ```
