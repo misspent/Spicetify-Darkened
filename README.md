@@ -40,13 +40,13 @@ This is one of those **"Premium Only"** themes as I will not add support, fix or
 Something I'll say that some people may dislike or want to punch me for saying; I do use a **"Spotify Premium Lifetime"** service as paying the total price per month for no ads + downloading playlist(s) to listen to offline is a rip-off. |
 I have no intentions of using odd extensions with Spotify as I use it purely for music in the background. I don't use anything that shows lyrics, Reddit posts, makes it compact, or any other possible extension that sound/seem like a good idea but, in my opinion, are worthless; however, if you do use extension(s), please let me know, and If it's an extension worthwhile in my opinion, I'll add support for it. |
 
-<h1 align="center">📜 Credits</h1>
-
-As usual, I decided to take what Nyria made and make my "own" version of it. Moreover, I also took some of his installation section as I'm lazy, and he did it the way I would've done it. If you can't tell already, his themes are to die for, but I like them dark, not blue/bright. Thank you Nyria and keep up the great work!
-* The original/base theme: [Nyria's Theme](https://github.com/NYRI4/Comfy-spicetify).
-
 <h1 align="center", margin= "0">📷 More Screenshots</h1>
 
 ![Spotify Artists Profile section](https://user-images.githubusercontent.com/78914154/168274765-2b852cb8-96b8-4fd6-b0fd-bb772eeec0fb.png)
 ![Spotify Your Library section](https://user-images.githubusercontent.com/78914154/168083357-154390cd-733b-4685-af1f-bb55dc75245f.png)
 ![Spotify Search section](https://user-images.githubusercontent.com/78914154/168083373-4f067378-7dce-4dbb-a1ce-c35c2db78f90.png)
+
+<h1 align="center">📜 Credits</h1>
+
+As usual, I decided to take what Nyria made and make my "own" version of it. Moreover, I also took some of his installation section as I'm lazy, and he did it the way I would've done it. If you can't tell already, his themes are to die for, but I like them dark, not blue/bright. Thank you Nyria and keep up the great work!
+* The original/base theme: [Nyria's Theme](https://github.com/NYRI4/Comfy-spicetify).
