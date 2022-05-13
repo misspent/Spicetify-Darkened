@@ -512,9 +512,6 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
   box-sizing: content-box;
   padding-bottom: 16px;
 }
-:root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying.main-nowPlayingWidget-coverExpanded {
-  transform: translateX(-100px);
-}
 :root .Root__now-playing-bar .playback-bar {
   position: absolute;
   display: grid;
