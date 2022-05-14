@@ -2,7 +2,8 @@
 
 .G1W6k59msDX3wNFCJ1mb {background: #252525;} /* Buttons */
 .os-scrollbar-handle {display: none !important;} /* Scrollbar */
-.G1W6k59msDX3wNFCJ1mb:hover, .G1W6k59msDX3wNFCJ1mb.X1PI4ZcmJchyHhBzbrVI {border-color: transparent;} /* Certain buttons | Default: var(--spice-button) */
+.G1W6k59msDX3wNFCJ1mb:hover, .G1W6k59msDX3wNFCJ1mb.X1PI4ZcmJchyHhBzbrVI, .G1W6k59msDX3wNFCJ1mb {border: 0px solid transparent;} /* Certain buttons | Default: var(--spice-button) */
+.G1W6k59msDX3wNFCJ1mb:focus, .G1W6k59msDX3wNFCJ1mb:hover {filter: brightness(120%);} /* Button colour when hovering */
 .progress-bar__slider{display: none} /* Progress bar slider shape with border radius [Change to: "block" for slider] */
 /* 1st = search tab section | 2nd = Create playlist icon | 3rd = Liked songs section | 4th = Your Episodes Icon | 5th = Delete ONLY if you remove 2,3 & 4. ["none" = remove] ["relative" = normal] */
 [href="/search"], .main-createPlaylistButton-createPlaylistIcon, .main-likedSongsButton-likedSongsIcon, .main-yourEpisodesButton-yourEpisodesIcon,
@@ -27,8 +28,9 @@ div.GlueDropTarget.personal-library {display: relative;}
 .Ft1cMGlqDsCbqmXQyeKN {background: var(--spice-background)} /* Background of artist? */
 .main-actionBar-ActionBar, .Fz5_rAxpenrV3rKWvEE0 {background: var(--spice-secondary);} /* Other background */
 :root .Root__nav-bar {background: var(--spice-other) !important; border-right: 1px solid var(--spice-shadow);} /* Sidebar */
-.oq1ci28WPaRsWkvRiB_J .Ws8Ec3GREpT5PAUesr9b .CmkY1Ag0tJDfnFXbGgju {margin-top: 15px !important;} /* Playlist cover photo position */
-.main-entityHeader-headerText {margin-top: 20px !important;} /* Playlist cover photo position on artists page */
+/* .main-entityHeader-headerText {margin-top: 20px !important;}  Playlist cover photo position on artists page */
+/* .oq1ci28WPaRsWkvRiB_J .Ws8Ec3GREpT5PAUesr9b .CmkY1Ag0tJDfnFXbGgju {margin-top: 15px !important;}  Playlist cover photo position */
+:root .Root__main-view .main-entityHeader-container {padding: 94px 32px 32px 32px !important;} /* Playlist + Artist image position | Example: https://open.spotify.com/artist/4TS37lr3ZraUxBHS727sEp?si=Cq6MFBufQKGoelo8eoCJGQ */
 .main-entityHeader-imageContainer .CmkY1Ag0tJDfnFXbGgju .main-yourEpisodes-coverContainer {margin-top: 30px !important;} /* Playlist cover photo Your Episodes Page */
 .kHu_FTRgoBLSLeAJtyKY {display: none;} /* removes "cover/change photo mask when hovering over icon in playlist & others */
 .We1fExPHxLIRmV0rZGNo, .bIdE4uyGCyx2bz0mzF4Z, .I1cppg1eJlgG6FCdhjO3, .euOnte9wvOF0D_SGxEZ9, .sbU_cIh6kQUanX3IUWD8, .main-view-container, .ojLwFoBNBM6cW7_RpeAN, .rezqw3Q4OEPB1m4rmwfw, .main-home-homeHeader, .main-actionBarBackground-background, .iB16LxoPzDeVZo8zPhPQ {background: var(--spice-secondary) !important;} /* Main colours */
@@ -75,6 +77,7 @@ div.GlueDropTarget.personal-library {display: relative;}
 html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-color: var(--spice-button)}
 .Z35BWOA10YGn5uc9YgAp:hover {background-color: var(--spice-button);}
 .OGlItsrPs4zmZvTe8uCl, .oaNVBli46GtVjaQKB15g {background-color: var(--spice-button);}
+.main-playlistEditDetailsModal-save {background: var(--spice-button);} /* Save button in edit details */
 .main-card-DownloadStatusIndicator {color: var(--spice-button);} /* Download icon colour */
 .main-entityHeader-shadow { /* drop shadow behind playlist cover photo */
 /*   box-shadow: 0 0.5px 30px #202020;*/
