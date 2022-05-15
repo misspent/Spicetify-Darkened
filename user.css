@@ -77,6 +77,8 @@ div.GlueDropTarget.personal-library {display: relative;}
 html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-color: var(--spice-button)}
 .Z35BWOA10YGn5uc9YgAp:hover {background-color: var(--spice-button);}
 .OGlItsrPs4zmZvTe8uCl, .oaNVBli46GtVjaQKB15g {background-color: var(--spice-button);}
+/* Playing bar | Repeat and shuffle button */
+.main-shuffleButton-button, .main-repeatButton-button {var(--spice-subtext)}
 .main-playlistEditDetailsModal-save {background: var(--spice-button);} /* Save button in edit details */
 .main-card-DownloadStatusIndicator {color: var(--spice-button);} /* Download icon colour */
 .main-entityHeader-shadow { /* drop shadow behind playlist cover photo */
