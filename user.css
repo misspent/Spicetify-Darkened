@@ -49,6 +49,13 @@ div.GlueDropTarget.personal-library {display: relative;}
 /* .aAr9nYtPsG7P2LRzciXc:hover, .fBTYgGyvIbHizHIj7AAX {border: 0px;} */
 /* Playing bar Cover photo when you press the up arrow to move it | makes it so the song name & artists are in correct spot */
 :root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying.main-nowPlayingWidget-coverExpanded {transform: translateX(-72px);}
+/* Colour of playlist border when you drag a song over it */
+.fsPHOucW2mlhyOhxopNF:after {
+  border: 1px solid var(--spice-button);
+  border-radius: var(--border-radius);
+  right: 0px;
+  left: 0px;
+}
 
 
 /*
@@ -77,9 +84,10 @@ div.GlueDropTarget.personal-library {display: relative;}
 html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-color: var(--spice-button)}
 .Z35BWOA10YGn5uc9YgAp:hover {background-color: var(--spice-button);}
 .OGlItsrPs4zmZvTe8uCl, .oaNVBli46GtVjaQKB15g {background-color: var(--spice-button);}
-.main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker {color: var(--spice-button-active);}
+.main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker {color: var(--spice-subtext) !important;}
 /* Playing bar | Repeat and shuffle button */
 .main-shuffleButton-button[disabled], .main-repeatButton-button[disabled] {color: var(--spice-subtext);}
+.main-repeatButton-button.yKo7LWUCQCEALszRxAaS:after {display: none;} .main-repeatButton-button {margin-top: 1px;} /* Repeat button dot removed + positioning fix */
 .main-playlistEditDetailsModal-save {background: var(--spice-button);} /* Save button in edit details */
 .main-card-DownloadStatusIndicator {color: var(--spice-button);} /* Download icon colour */
 .main-entityHeader-shadow {box-shadow: 0 0.5px 80px rgba(var(--spice-rgb-shadow),.5);} /* drop shadow behind playlist cover photo */
