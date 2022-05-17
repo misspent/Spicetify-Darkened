@@ -32,6 +32,7 @@ y
 * ✔️ Doesn't change artists banners
 * ✔️ It *should* stay up-to-date as I use Spotify daily
 * ❌ Premium only (It may break/look odd without, I'm not sure)
+* ❌ Friends sections may not be up-to-date(?) as I don't use it nor have anyone added on Spotify
 * 📅 Might start adding support for extension at some point regardless of whether or not people request
 
 📌 Important |
