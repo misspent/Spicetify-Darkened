@@ -80,11 +80,12 @@ div.GlueDropTarget.personal-library {display: relative;}
 .encore-dark-theme .encore-inverted-light-set {background-color: var(--spice-button); border-radius: var(--border-radius);} /* Settings icon in friends activity */
 .main-entityHeader-creatorWrapper a {color: var(--spice-button)!important;} /* Playlist creator/artist colour */
 .main-trackList-trackListRow.main-trackList-selected:hover {border-color: var(--spice-button);} /* clicking on a song container outlines */
-.STDuzt77yRCueC4Ohenl .bRiqwU {padding: 5px; background-color: var(--spice-shadow)}
+.STDuzt77yRCueC4Ohenl .bRiqwU {padding: 10px; background-color: var(--spice-shadow)}
 html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-color: var(--spice-button)}
 .Z35BWOA10YGn5uc9YgAp:hover {background-color: var(--spice-button);}
 .OGlItsrPs4zmZvTe8uCl, .oaNVBli46GtVjaQKB15g {background-color: var(--spice-button);}
-.main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker {color: var(--spice-subtext) !important;}
+.main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker {color: var(--spice-button) !important;}
+.main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowMarker{color: var(--spice-button);}
 /* Playing bar | Repeat and shuffle button */
 .main-shuffleButton-button[disabled], .main-repeatButton-button[disabled] {color: var(--spice-subtext);}
 .main-repeatButton-button.yKo7LWUCQCEALszRxAaS:after {display: none;} .main-repeatButton-button {margin-top: 1px;} /* Repeat button dot removed + positioning fix */
@@ -107,7 +108,11 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 .kUkjSLUuPyag37OAbVPH.sKrYQkHlFOyAc0bM142q {background-color: var(--spice-button-active);}
 .kUkjSLUuPyag37OAbVPH:focus-within, .kUkjSLUuPyag37OAbVPH:hover {background-color: var(--spice-card);}
 .OQZtYvcaWiQEaOOMZ54v {background-color: var(--spice-shadow); border-radius: var(--border-radius);}
-
+/* "Add" button at the bottom of playlists */
+.main-button-outlined {background-color: transparent; border: 1px solid #7127de;}
+/* "Refresh" button at the bottom of playlists */
+.QmGi2oa43BTcEZ5MCr9T {background-color: var(--spice-shadow); margin-bottom: 25px !important;}
+  
 /*
 \==================================================================================\
 \                            Noteless's whatever tweaks                            \
