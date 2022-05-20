@@ -26,7 +26,7 @@ div.GlueDropTarget.personal-library {display: relative;}
 
 [href="/spicetify-marketplace"] {display: none;}
 .Ft1cMGlqDsCbqmXQyeKN {background: var(--spice-background)} /* Background of artist? */
-.main-actionBar-ActionBar, .Fz5_rAxpenrV3rKWvEE0, .contentSpacing {background: var(--spice-secondary);} /* Other background */
+.main-actionBar-ActionBar, .Fz5_rAxpenrV3rKWvEE0 {background: var(--spice-secondary);} /* Other background */
 :root .Root__nav-bar {background: var(--spice-other) !important; border-right: 1px solid var(--spice-shadow);} /* Sidebar */
 /* .main-entityHeader-headerText {margin-top: 20px !important;}  Playlist cover photo position on artists page */
 /* .oq1ci28WPaRsWkvRiB_J .Ws8Ec3GREpT5PAUesr9b .CmkY1Ag0tJDfnFXbGgju {margin-top: 15px !important;}  Playlist cover photo position */
