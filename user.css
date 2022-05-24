@@ -1,7 +1,26 @@
-/* Noteless's optional/changeable? ones you might want to mess with */
+/* Noteless's optional/changeable? ones you might want to mess with
+
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-rootlist-rootlistItemLink {background: var(--spice-other)} */
+
+
+/* Icons/Button | Add Playlist, Liked Songs & Your Episodes */
+.main-createPlaylistButton-text, .main-collectionLinkButton-collectionLinkText {display: none;}
+.main-rootlist-rootlist, .main-rootlist-rootlistContent {display: block;}
+#main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div.GlueDropTarget.GlueDropTarget--albums.GlueDropTarget--tracks.GlueDropTarget--local-tracks.GlueDropTarget--episodes, #main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div:nth-child(2), #main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div:nth-child(3) {display: table-cell; margin: 0px; padding-bottom: 8px; padding-left: 57.2%;}
+.main-createPlaylistButton-button, .main-collectionLinkButton-collectionLinkButton {padding: 0px;}
+._fvd5Owa47kK9H48h7mL, .main-createPlaylistButton-createPlaylistIcon {border-radius: var(--border-radius); color: #909090;} /* Create playlist icon */
+.main-likedSongsButton-likedSongsIcon {background: linear-gradient(135deg, var(--spice-button), #181818); border-radius: var(--border-radius);} /* Liked songs icon */
+.main-likedSongsButton-likedSongsIcon:hover {filter: brightness(120%);} /* Liked songs icon Hover */
+
 
 .G1W6k59msDX3wNFCJ1mb {background: #252525;} /* Buttons */
 .os-scrollbar-handle {display: none !important;} /* Scrollbar */
+/* [href="/spicetify-marketplace"] {display: none;} */
 .G1W6k59msDX3wNFCJ1mb:hover, .G1W6k59msDX3wNFCJ1mb.X1PI4ZcmJchyHhBzbrVI, .G1W6k59msDX3wNFCJ1mb {border: 0px solid transparent;} /* Certain buttons | Default: var(--spice-button) */
 .G1W6k59msDX3wNFCJ1mb:focus, .G1W6k59msDX3wNFCJ1mb:hover {filter: brightness(120%);} /* Button colour when hovering */
 .progress-bar__slider{display: none} /* Progress bar slider shape with border radius [Change to: "block" for slider] */
@@ -24,8 +43,7 @@ div.GlueDropTarget.personal-library {display: relative;}
 /* Does not mess with artists background; only changes colour of playlist/other backgrounds behind cover photo & name */
 #main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div.contentSpacing.main-entityHeader-container.main-entityHeader-nonWrapped > div {background: var(--spice-misc) !important;}
 
-[href="/spicetify-marketplace"] {display: none;}
-.Ft1cMGlqDsCbqmXQyeKN {background: var(--spice-background)} /* Background of artist? */
+.Ft1cMGlqDsCbqmXQyeKN, .main-entityHeader-backgroundColor {background: var(--spice-background) !important} /* Background of artist? */
 .main-actionBar-ActionBar, .Fz5_rAxpenrV3rKWvEE0 {background: var(--spice-secondary);} /* Other background */
 :root .Root__nav-bar {background: var(--spice-other) !important; border-right: 1px solid var(--spice-shadow);} /* Sidebar */
 /* .main-entityHeader-headerText {margin-top: 20px !important;}  Playlist cover photo position on artists page */
@@ -68,11 +86,9 @@ div.GlueDropTarget.personal-library {display: relative;}
 :root .main-trackList-rowHeartButton *:not([fill=none]), :root .control-button-heart *:not([fill=none]) {color: var(--spice-button) !important; fill: var(--spice-button) !important;} /* Heart */
 :root .playlist-playlist-playlistContent .main-addButton-active, :root .playlist-playlist-playlistContent .main-addButton-active:focus, :root .playlist-playlist-playlistContent .main-addButton-active:hover {color: var(--spice-button);}
 /* Colour's that don't "really" need changing*/
-.W5JUlxsbMsaSi4DGjoPN, .W5JUlxsbMsaSi4DGjoPN {background: linear-gradient(149.46deg,#450af5,#8e8ee5 99.16%);} /* Liked songs background in the "Your Library" section */
+.W5JUlxsbMsaSi4DGjoPN, .W5JUlxsbMsaSi4DGjoPN, .main-heroCard-card .main-heroCard-cardLink {background: linear-gradient(149.46deg,#450af5,#8e8ee5 99.16%);} /* Liked songs background in the "Your Library" section */
 .oT0etGSj2ty3qjhnnd4c {background: linear-gradient(.316turn,#00644e 50.57%,#27856a);} /* Your Episodes background in the "Podcasts" section */
-._fvd5Owa47kK9H48h7mL {background: #252525;  border-radius: var(--border-radius); color: #909090;} /* Create playlist icon */
-.encore-dark-theme .encore-bright-accent-set:hover {background-color: #802efc; border-radius: var(--border-radius);} /* Play buttons hover*/
-.main-likedSongsButton-likedSongsIcon {background: linear-gradient(135deg, var(--spice-button), #181818); border-radius: var(--border-radius);} /* Liked songs icon */
+
 /* Other */
 .kNBJcQ {justify-content: center; background: var(--spice-main);} /* Custom order dropdown "sort by" container */
 #main > div > div.Root__top-container > div.Root__top-bar > header > div.main-topBar-topbarContentWrapper > div > div > div > span > svg > path {color: grey;} /* Search bar icon */
@@ -119,7 +135,7 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 \==================================================================================\
 */
 
-.main-dropDown-dropDown, .LD4kJcnhgnIGIqayNLFX .u9LQkNKePnbYghLuVYIE .kmZUfpW_5VwiPUSq5zQ2, .main-contextMenu-menu, .a2ruVaZt_DdrdHz3GqgU, .x-categoryCard-CategoryCard, .JdlKTdpMquftpMwwegZo, .main-heroCard-card, .main-trackList-trackListRow, .pI6Qf_QH5K9jtZ1uwmYf, .L4WROPnQ7MPGhylvVyxd, .queue-tabBar-headerItemLink, .oQGUr6fmgmlPARqBIeBa, .PzcmS_Z8j0D6n3ZEmv20, .xaKMcFuZK3bEXbt3bPdg, .IyZpbhJE52K9fkJmGbAj, .main-playlistEditDetailsModal-container, .main-playlistEditDetailsModal-descriptionTextarea, .main-buttons-button, .wCl7pMTEE68v1xuZeZiB:focus, .wCl7pMTEE68v1xuZeZiB:hover, .Z35BWOA10YGn5uc9YgAp, .Z35BWOA10YGn5uc9YgAp .zXwER4Lsqq_e7fVVaPkZ, .Z35BWOA10YGn5uc9YgAp .WWDxafTPs4AgThdcX5jN, .TT1tIewS2iI8Uz8kLuQB, .main-yourEpisodes-coverContainer, .YbDIZ84mS7tzHr1tgWE9, .OGlItsrPs4zmZvTe8uCl, .x-progressBar-progressBarBg, .w699O0LgQRghXyl3bs9u, .EJ0w02DsWAFRB6erLz4g, .eRA1lFgEi72O3fgeEpwl, .dLvkpxjslIRQbk1CwUmA.Q4Tjljkt3LIpk7eBBKgp, .dLvkpxjslIRQbk1CwUmA:focus, .dLvkpxjslIRQbk1CwUmA:hover, .y5Q6GstKP0D4WfhjB7vA .SQCi7xTgUFYzi5kYW7YG, .main-keyboardShortcutsHelpModal-key, .EhyK_jJzB2PcWXd5lg24, .kUkjSLUuPyag37OAbVPH, .zi377dMLSwXnFiejYnRa.aIWRvSjvEN4rTMCIi4vG, .G8UNZJv4HT1kOIolA_e7, .main-notificationBubble-NotificationBubble {border-radius: var(--border-radius) !important;} /* Border radius in settings & Friends activity & Context menu (click settings) + Search section containers + Your library container borders + Your episodes icon */
+.main-dropDown-dropDown, .LD4kJcnhgnIGIqayNLFX .u9LQkNKePnbYghLuVYIE .kmZUfpW_5VwiPUSq5zQ2, .main-contextMenu-menu, .a2ruVaZt_DdrdHz3GqgU, .x-categoryCard-CategoryCard, .JdlKTdpMquftpMwwegZo, .main-heroCard-card, .main-trackList-trackListRow, .pI6Qf_QH5K9jtZ1uwmYf, .L4WROPnQ7MPGhylvVyxd, .queue-tabBar-headerItemLink, .oQGUr6fmgmlPARqBIeBa, .PzcmS_Z8j0D6n3ZEmv20, .xaKMcFuZK3bEXbt3bPdg, .IyZpbhJE52K9fkJmGbAj, .main-playlistEditDetailsModal-container, .main-playlistEditDetailsModal-descriptionTextarea, .main-buttons-button, .wCl7pMTEE68v1xuZeZiB:focus, .wCl7pMTEE68v1xuZeZiB:hover, .Z35BWOA10YGn5uc9YgAp, .Z35BWOA10YGn5uc9YgAp .zXwER4Lsqq_e7fVVaPkZ, .Z35BWOA10YGn5uc9YgAp .WWDxafTPs4AgThdcX5jN, .TT1tIewS2iI8Uz8kLuQB, .main-yourEpisodes-coverContainer, .YbDIZ84mS7tzHr1tgWE9, .OGlItsrPs4zmZvTe8uCl, .x-progressBar-progressBarBg, .w699O0LgQRghXyl3bs9u, .EJ0w02DsWAFRB6erLz4g, .eRA1lFgEi72O3fgeEpwl, .dLvkpxjslIRQbk1CwUmA.Q4Tjljkt3LIpk7eBBKgp, .dLvkpxjslIRQbk1CwUmA:focus, .dLvkpxjslIRQbk1CwUmA:hover, .y5Q6GstKP0D4WfhjB7vA .SQCi7xTgUFYzi5kYW7YG, .main-keyboardShortcutsHelpModal-key, .EhyK_jJzB2PcWXd5lg24, .kUkjSLUuPyag37OAbVPH, .zi377dMLSwXnFiejYnRa.aIWRvSjvEN4rTMCIi4vG, .G8UNZJv4HT1kOIolA_e7, .main-notificationBubble-NotificationBubble, .main-yourEpisodesButton-yourEpisodesIcon {border-radius: var(--border-radius) !important;} /* Border radius in settings & Friends activity & Context menu (click settings) + Search section containers + Your library container borders + Your episodes icon */
 .x-progressBar-progressBarBg, .w6j_vX6SF5IxSXrrkYw5 {background-color: var(--spice-shadow);} /* Progress bar background * playlist/song filter button */
 .wCkjuzeyTEYt_GDNp_O7 {background-color: var(--spice-background);  border-radius: var(--border-radius); color: var(--spice-subtext);} /* Delete channel container */
 .K8PtC1Way9XetxDGwCGx {background-color: var(--spice-other); border-radius: var(--border-radius); color: var(--spice-subtext);} .awGNDbf1c8TGBAFR0pv8 {margin-top: 10px;} .hmgUGT {background-color: var(--spice-shadow)} /* Delete playlist container */
