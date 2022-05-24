@@ -10,7 +10,7 @@
 
 Make sure [Git](https://git-scm.com/) is installed, then go into your `Themes` folder in `.spicetify` then do:
 ```
-git clone https://github.com/misspent/Darkened-spicetify
+git clone https://github.com/misspent/Spicetify-Darkened
 ```
 Open **Powershell** and run the following:
 ```
