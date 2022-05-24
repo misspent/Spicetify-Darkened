@@ -38,7 +38,7 @@ div.GlueDropTarget.personal-library {display: relative;}
 .Root__top-bar {background-color: var(--spice-topbar) !important; border-bottom: 1px solid none;} /* Topbar */
 .main-topBar-overlay, .main-topBar-background {background: var(--spice-other) !important; opacity: 0 !important;} /* background behind playlist icon, description, name etc (top) */
 :root .Root__nav-bar .main-rootlist-rootlist .os-content {padding: 0px !important;} /* whole "playlist" sidebar container */
-.main-card-cardMetadata, .main-card-draggable, .main-heroCard-card, .Z35BWOA10YGn5uc9YgAp {background: var(--spice-card);} /* Delete if you have to you (card info container colour + artist background big container) */
+.main-card-cardMetadata, .main-card-draggable, .Z35BWOA10YGn5uc9YgAp {background: var(--spice-card);} /* Delete if you have to you (card info container colour + artist background big container) */
 /* Home "Good Afternoon" Pause/Play button container  */
 .Kcb74zm1aMqGfPxTwO5s {border-radius: var(--border-radius); box-shadow: 0 0px 8px 8px rgba(var(--spice-rgb-shadow),.5);}
 .main-userWidget-box, .main-topBar-historyButtons .main-topBar-button {background-color: var(--spice-navbar-buttons);}
@@ -149,12 +149,12 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 .l6YAKmkzQj4WAyn82MP6 {
   text-align: center;
   background: var(--spice-card);
-  margin: 0px;
+  margin-bottom: 0px;
 }
 
 /* Liked Songs containers */
 .Fn20akYjMyO_Uesv7y6x {
-  margin: 0 0 0px;
+  margin-bottom: 0px;
   text-align: center;
   background: var(--spice-card);
 }
@@ -166,7 +166,7 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 
 /* Artist Pick containers */
 .L0q_KvxXxztNsDDAZD1I {
-  margin: 0 0 0px;
+  margin-bottom: 0px;
   text-align: center;
   background: var(--spice-card);
 }
@@ -199,14 +199,18 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
   padding: 12px;
 }
 /* See All button container */
-.main-shelf-seeAll {
+.main-shelf-seeAll, .a7lvtXATo3HALtrsOHtO {
   margin-left: 0px;
   margin-right: 8px;
+}
+.main-shelf-seeAll:hover {
+  color: var(--spice-button);
+  border-color: var(--spice-button);
 }
 
 /* About container */
 .GQoJQ78ND8FeaTO7EH9C {
-  margin: 0px;
+  margin-bottom: 0px;
   text-align: center;
   background: var(--spice-card);
 }
@@ -215,7 +219,8 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 /* Offers container */
 .KS5BSNUoDE2OWIjrG9XL {
   background: var(--spice-other);
-  margin: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
 }
 
 /* On tour container */
@@ -226,8 +231,45 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 .l6YAKmkzQj4WAyn82MP6 {
   text-align: center;
   background: var(--spice-card);
-  margin: 0px;
+  margin-bottom: 0px;
 }
+
+/* INFO: Search Results containers | Same as above but for Search Page ONLY */
+
+/* Songs Container */
+.nGARy02O1AklvHT7OBLA>.EbZrO5qZMclA_AaI3NV8 .rP1oFnzzvss0GV6VPgGG .XQakH0M0GDc6g6JKeyds {
+  text-align: center;
+  align-items: center;
+  background: var(--spice-card);
+  margin-bottom: 0px;
+}
+
+/* Top result container */
+#searchPage > div > div > section.iGyMsGo7FgYQQThBj2y9.main-shelf-shelf > div.main-shelf-header > div {
+  text-align: center !important;
+  background: var(--spice-card) !important;
+  margin-bottom: 0px !important;
+}
+.main-heroCard-card {background: var(--spice-secondary);}
+#searchPage .main-cardImage-imageWrapper {box-shadow: none !important;} /* Removes image shadows in Search Page */
+.RArlOXg8S6l3NgRKrGsO {background-color: var(--spice-button); border-radius: var(--border-radius);} /* Artist Tag */
+
+
+/* Search Page | All titles below the two above */
+#searchPage > div > div > section > div.main-shelf-header > div {
+  text-align: center;
+  align-items: center;
+  background: var(--spice-card);
+  margin-bottom: 0px;
+}
+
+/* Search Page | All background behind albums, artists etc */
+#searchPage > div > div > section > div.main-gridContainer-gridContainer.main-shelf-shelfGrid {
+  background: var(--spice-other);
+  padding: 12px;
+}
+
+
 
 /*
 \==================================================================================\
