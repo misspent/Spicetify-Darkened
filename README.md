@@ -1,3 +1,5 @@
+Currently outdated as I'm messing ;)
+
 ![Darkened Spicetify](https://user-images.githubusercontent.com/78914154/156931758-f874078f-910c-49e2-bbf9-10b77cf81054.png)
 
 <h1 align="center">Preview</h1>
