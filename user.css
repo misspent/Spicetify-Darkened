@@ -33,6 +33,20 @@ div.GlueDropTarget.personal-library {display: relative;}
 /* Does not mess with artists background; only changes colour of playlist/other backgrounds behind cover photo & name */
 #main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div.contentSpacing.main-entityHeader-container.main-entityHeader-nonWrapped > div {background: var(--spice-misc) !important;}
 
+/* Icons/Button | Add Playlist, Liked Songs & Your Episodes */
+.main-createPlaylistButton-text, .main-collectionLinkButton-collectionLinkText {display: none;}
+.main-rootlist-rootlist, .main-rootlist-rootlistContent {display: block;}
+#main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div.GlueDropTarget.GlueDropTarget--albums.GlueDropTarget--tracks.GlueDropTarget--local-tracks.GlueDropTarget--episodes, #main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div:nth-child(2), #main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div:nth-child(3) {display: table-cell; margin: 0px; padding-bottom: 8px; padding-left: 57%;}
+.main-createPlaylistButton-button, .main-collectionLinkButton-collectionLinkButton {padding: 0px;}
+._fvd5Owa47kK9H48h7mL, .main-createPlaylistButton-createPlaylistIcon {border-radius: var(--border-radius); color: #909090;} /* Create playlist icon */
+.main-likedSongsButton-likedSongsIcon {background: linear-gradient(135deg, var(--spice-button), #181818); border-radius: var(--border-radius);} /* Liked songs icon */
+.main-likedSongsButton-likedSongsIcon:hover {filter: brightness(120%);} /* Liked songs icon Hover */
+
+/* Following/Follow button colours */
+#main > div > div.Root__top-container > div.Root__main-view > main > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBar-ActionBar.contentSpacing > div > button.aAr9nYtPsG7P2LRzciXc {background: var(spice-other) !important;} /* Not following */
+#main > div > div.Root__top-container > div.Root__main-view > main > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBar-ActionBar.contentSpacing > div > button.aAr9nYtPsG7P2LRzciXc:hover {border-color: forestgreen !important;} /* Not following border color*/
+#main > div > div.Root__top-container > div.Root__main-view > main > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBar-ActionBar.contentSpacing > div > button.aAr9nYtPsG7P2LRzciXc.fBTYgGyvIbHizHIj7AAX {background: forestgreen; border-color: #0ee50e;} /* Following */
+
 .Ft1cMGlqDsCbqmXQyeKN, .main-entityHeader-backgroundColor {background: var(--spice-background) !important} /* Background of artist? */
 .main-trackCreditsModal-container {background: var(--spice-background)} /* Experimental Features container */
 .main-actionBar-ActionBar, .Fz5_rAxpenrV3rKWvEE0 {background: var(--spice-secondary);} /* Other background */
@@ -51,24 +65,11 @@ div.GlueDropTarget.personal-library {display: relative;}
 /* Home "Good Afternoon" Pause/Play button container  */
 .Kcb74zm1aMqGfPxTwO5s {border-radius: var(--border-radius); box-shadow: 0 0px 8px 8px rgba(var(--spice-rgb-shadow),.5);}
 .main-userWidget-box, .main-topBar-historyButtons .main-topBar-button {background-color: var(--spice-navbar-buttons);}
-/* Following/Follow button colours */
-#main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBar-ActionBar.contentSpacing > div > button.aAr9nYtPsG7P2LRzciXc {background: var(spice-other);} /* Not following */
-#main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBar-ActionBar.contentSpacing > div > button.aAr9nYtPsG7P2LRzciXc:hover {border-color: forestgreen;} /* Not following border color*/
-#main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBar-ActionBar.contentSpacing > div > button.aAr9nYtPsG7P2LRzciXc.fBTYgGyvIbHizHIj7AAX {background: forestgreen;} /* Following */
 /* .aAr9nYtPsG7P2LRzciXc:hover, .fBTYgGyvIbHizHIj7AAX {border: 0px;} */
 /* Playing bar Cover photo when you press the up arrow to move it | makes it so the song name & artists are in correct spot */
 :root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying.main-nowPlayingWidget-coverExpanded {transform: translateX(-72px);}
 /* Colour of playlist border when you drag a song over it */
 .fsPHOucW2mlhyOhxopNF:after {border: 1px solid var(--spice-button); border-radius: var(--border-radius); right: 0px; left: 0px;}
-
-/* Icons/Button | Add Playlist, Liked Songs & Your Episodes */
-.main-createPlaylistButton-text, .main-collectionLinkButton-collectionLinkText {display: none;}
-.main-rootlist-rootlist, .main-rootlist-rootlistContent {display: block;}
-#main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div.GlueDropTarget.GlueDropTarget--albums.GlueDropTarget--tracks.GlueDropTarget--local-tracks.GlueDropTarget--episodes, #main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div:nth-child(2), #main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div:nth-child(3) {display: table-cell; margin: 0px; padding-bottom: 8px; padding-left: 57.2%;}
-.main-createPlaylistButton-button, .main-collectionLinkButton-collectionLinkButton {padding: 0px;}
-._fvd5Owa47kK9H48h7mL, .main-createPlaylistButton-createPlaylistIcon {border-radius: var(--border-radius); color: #909090;} /* Create playlist icon */
-.main-likedSongsButton-likedSongsIcon {background: linear-gradient(135deg, var(--spice-button), #181818); border-radius: var(--border-radius);} /* Liked songs icon */
-.main-likedSongsButton-likedSongsIcon:hover {filter: brightness(120%);} /* Liked songs icon Hover */
 
 
 /*
@@ -80,10 +81,12 @@ div.GlueDropTarget.personal-library {display: relative;}
 :root .playlist-playlist-playlistContent .main-addButton-active, :root .playlist-playlist-playlistContent .main-addButton-active:focus, :root .playlist-playlist-playlistContent .main-addButton-active:hover {color: var(--spice-button);}
 :root .Root__nav-bar .main-rootlist-rootlist .os-content::before {background: var(--spice-topbar); color: var(--spice-button); border-top: 1px solid var(--spice-shadow);} /* "playlists title container */
 :root .main-trackList-rowHeartButton *:not([fill=none]), :root .control-button-heart *:not([fill=none]) {color: var(--spice-button) !important; fill: var(--spice-button) !important;} /* Heart */
+/* Play buttons & Play Button Hover */
+.encore-dark-theme .encore-bright-accent-set, .main-playPauseButton-button {background-color: var(--spice-button); border-radius: var(--border-radius);}
+.JkEwH:hover .ButtonInner-sc-14ud5tc-0:hover {background-color: var(--spice-button); filter: brightness(125%);}
 /* Other */
 .kNBJcQ {justify-content: center; background: var(--spice-main);} /* Custom order dropdown "sort by" container */
 #main > div > div.Root__top-container > div.Root__top-bar > header > div.main-topBar-topbarContentWrapper > div > div > div > span > svg > path {color: grey;} /* Search bar icon */
-.encore-dark-theme .encore-bright-accent-set, .main-playPauseButton-button {background-color: var(--spice-button); border-radius: var(--border-radius);} /* Play buttons */
 .encore-dark-theme .encore-inverted-light-set {background-color: var(--spice-button); border-radius: var(--border-radius);} /* Settings icon in friends activity */
 .main-entityHeader-creatorWrapper a {color: var(--spice-button)!important;} /* Playlist creator/artist colour */
 .main-trackList-trackListRow.main-trackList-selected:hover {border-color: var(--spice-button);} /* clicking on a song container outlines */
@@ -99,11 +102,6 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 .main-playlistEditDetailsModal-save {background: var(--spice-button);} /* Save button in edit details */
 .main-card-DownloadStatusIndicator {color: var(--spice-button);} /* Download icon colour */
 .main-entityHeader-shadow {box-shadow: 0px 0px 0px 10px var(--spice-other);} /* Drop shadow behind playlist cover photo | Other: 0px 0px 0px 5px rgba(var(--spice-rgb-shadow),.99) */
-
-/* Bookmark extension container */
-:root #bookmark-menu .bookmark-filter {background-color: var(--spice-card); border-radius: var(--border-radius);}
-.bookmark-card {background: var(--spice-misc); padding: 12px;}
-
 /* Press "LSHIFT + /" it's the keybind shortcuts popup */
 .EhyK_jJzB2PcWXd5lg24 {background-color: var(--spice-background);}
 .main-keyboardShortcutsHelpModal-header {border-bottom: 1px solid var(--spice-button);}
@@ -121,6 +119,11 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 .QmGi2oa43BTcEZ5MCr9T {background-color: var(--spice-shadow); margin-bottom: 25px !important;}
 /* Context menu hover background */
 :root #context-menu ul button:not(.main-contextMenu-disabled):focus, :root #context-menu ul button:not(.main-contextMenu-disabled):hover, :root #context-menu ul button[aria-expanded=true], :root #context-menu ul a:not(.main-contextMenu-disabled):focus, :root #context-menu ul a:not(.main-contextMenu-disabled):hover, :root #context-menu ul a[aria-expanded=true] {background-color: var(--spice-button) !important;}
+
+/* --> Extension Tweaks <-- */
+/* Bookmark container */
+:root #bookmark-menu .bookmark-filter {background-color: var(--spice-card); border-radius: var(--border-radius);}
+.bookmark-card {background: var(--spice-misc); padding: 12px;}
   
 /*
 \==================================================================================\
