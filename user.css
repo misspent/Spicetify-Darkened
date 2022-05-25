@@ -62,8 +62,7 @@ div.GlueDropTarget.personal-library {display: relative;}
 .main-topBar-overlay, .main-topBar-background {background: var(--spice-other) !important; opacity: 0 !important;} /* background behind playlist icon, description, name etc (top) */
 :root .Root__nav-bar .main-rootlist-rootlist .os-content {padding: 0px !important;} /* whole "playlist" sidebar container */
 .main-card-cardMetadata, .main-card-draggable, .Z35BWOA10YGn5uc9YgAp {background: var(--spice-card);} /* Delete if you have to you (card info container colour + artist background big container) */
-/* Home "Good Afternoon" Pause/Play button container  */
-.Kcb74zm1aMqGfPxTwO5s {border-radius: var(--border-radius); box-shadow: 0 0px 8px 8px rgba(var(--spice-rgb-shadow),.5);}
+
 .main-userWidget-box, .main-topBar-historyButtons .main-topBar-button {background-color: var(--spice-navbar-buttons);}
 /* .aAr9nYtPsG7P2LRzciXc:hover, .fBTYgGyvIbHizHIj7AAX {border: 0px;} */
 /* Playing bar Cover photo when you press the up arrow to move it | makes it so the song name & artists are in correct spot */
@@ -82,8 +81,10 @@ div.GlueDropTarget.personal-library {display: relative;}
 :root .Root__nav-bar .main-rootlist-rootlist .os-content::before {background: var(--spice-topbar); color: var(--spice-button); border-top: 1px solid var(--spice-shadow);} /* "playlists title container */
 :root .main-trackList-rowHeartButton *:not([fill=none]), :root .control-button-heart *:not([fill=none]) {color: var(--spice-button) !important; fill: var(--spice-button) !important;} /* Heart */
 /* Play buttons & Play Button Hover */
+.Kcb74zm1aMqGfPxTwO5s {border-radius: var(--border-radius); box-shadow: 0 0px 8px 8px rgba(var(--spice-rgb-shadow),.5);} /* Home "Good Afternoon" Pause/Play button container  */
 .encore-dark-theme .encore-bright-accent-set, .main-playPauseButton-button {background-color: var(--spice-button); border-radius: var(--border-radius);}
-.JkEwH:hover .ButtonInner-sc-14ud5tc-0:hover {background-color: var(--spice-button); filter: brightness(125%);}
+.JkEwH:hover .ButtonInner-sc-14ud5tc-0:hover, .Kcb74zm1aMqGfPxTwO5s:hover {background-color: var(--spice-button) !important; filter: brightness(125%) !important;}
+.kNOYsX:hover .ButtonInner-sc-14ud5tc-0 {background-color: var(--spice-button);} /* Play buttons in "Home" section */
 /* Other */
 .kNBJcQ {justify-content: center; background: var(--spice-main);} /* Custom order dropdown "sort by" container */
 #main > div > div.Root__top-container > div.Root__top-bar > header > div.main-topBar-topbarContentWrapper > div > div > div > span > svg > path {color: grey;} /* Search bar icon */
