@@ -14,7 +14,10 @@ div.GlueDropTarget.personal-library {display: relative;}
   background-color: #7027de33; /* Change this one */
   border: 1px solid var(--spice-button);}
 /* hovering over songs in your playlists (tracklist) */
-.main-trackList-trackListRow:hover, .main-trackList-trackListRow.main-trackList-selected, .main-trackList-trackListRow.main-trackList-selected:hover {background-color: #7127de33;}
+.main-trackList-trackListRow.main-trackList-selected:hover, .main-trackList-trackListRow:hover {background-color: rgba(var(--spice-rgb-button), .3);}
+.main-trackList-trackListRow.main-trackList-selected {background-color: rgba(var(--spice-rgb-button), .2)}
+/* Active song name colour in playlists */
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowMarker, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker {color: #1DB954;}
 
 /*
 \==================================================================================\
@@ -79,13 +82,10 @@ div.GlueDropTarget.personal-library {display: relative;}
 #main > div > div.Root__top-container > div.Root__top-bar > header > div.main-topBar-topbarContentWrapper > div > div > div > span > svg > path {color: grey;} /* Search bar icon */
 .encore-dark-theme .encore-inverted-light-set {background-color: var(--spice-button); border-radius: var(--border-radius);} /* Settings icon in friends activity */
 .main-entityHeader-creatorWrapper a {color: var(--spice-button) !important;} /* Playlist creator/artist colour */
-.main-trackList-trackListRow.main-trackList-selected:hover {border-color: var(--spice-button);} /* clicking on a song container outlines */
 .STDuzt77yRCueC4Ohenl .bRiqwU {padding: 10px; background-color: var(--spice-shadow);}
 html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-color: var(--spice-button);}
 .Z35BWOA10YGn5uc9YgAp:hover {background-color: var(--spice-button);}
 .OGlItsrPs4zmZvTe8uCl, .oaNVBli46GtVjaQKB15g {background-color: var(--spice-button);}
-.main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker {color: var(--spice-button) !important;}
-.main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowMarker{color: var(--spice-button);}
 /* Playing bar | Repeat and shuffle button */
 .main-shuffleButton-button[disabled], .main-repeatButton-button[disabled] {color: var(--spice-subtext);}
 .main-repeatButton-button.yKo7LWUCQCEALszRxAaS:after {display: none;} .main-repeatButton-button {margin-top: 1px;} /* Repeat button dot removed + positioning fix */
@@ -112,8 +112,9 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 
 /* --> Extension Tweaks <-- */
 /* Bookmark container */
-:root #bookmark-menu .bookmark-filter {background-color: var(--spice-card); border-radius: var(--border-radius);}
-.bookmark-card {background: var(--spice-misc); padding: 12px;}
+:root #bookmark-menu .bookmark-filter {background-color: var(--spice-secondary)!important; border-radius: var(--border-radius)!important;}
+#bookmark-menu {background: var(--spice-card) !important; padding-bottom: 5px !important; box-shadow: 0px 0px 0px 0px transparent !important;}
+.bookmark-card {background: var(--spice-misc) !important; padding: 6px 6px !important; margin-top: 5px !important;}
 
 /*
 \==================================================================================\
@@ -154,6 +155,11 @@ button.main-moreButton-button:hover, .wCl7pMTEE68v1xuZeZiB:focus, .wCl7pMTEE68v1
   text-align: center;
   background: var(--spice-card);
   margin-bottom: 0px;
+}
+.nUpwbkL4Yaj31N0emCvb { /* Show More/Show Less button under the container */
+  background: var(--spice-card);
+  margin-top: 6px;
+  padding: 8px;
 }
 
 /* Liked Songs containers */
