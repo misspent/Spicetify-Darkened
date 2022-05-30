@@ -1,6 +1,7 @@
-/* Noteless's optional/changeable? ones you might want to mess with
+/* Noteless's optional/changeable? ones you might want to mess with */
 
 .G1W6k59msDX3wNFCJ1mb {background: #252525;} /* Buttons */
+.main-navBar-navBarItem[data-id="/spicetify-marketplace"] {display: none;} /* Marketplace extension */
 .os-scrollbar-handle {display: none !important;} /* Scrollbar */
 .G1W6k59msDX3wNFCJ1mb:hover, .G1W6k59msDX3wNFCJ1mb.X1PI4ZcmJchyHhBzbrVI, .G1W6k59msDX3wNFCJ1mb {border: 0px solid transparent;} /* Certain buttons | Default: var(--spice-button) */
 .G1W6k59msDX3wNFCJ1mb:focus, .G1W6k59msDX3wNFCJ1mb:hover {filter: brightness(120%);} /* Button colour when hovering */
@@ -25,7 +26,7 @@ div.GlueDropTarget.personal-library {display: relative;}
 */
 
 /* Border radius in settings & Friends activity & Context menu (click settings) + Search section containers + Your library container borders + Your episodes icon */
-.main-dropDown-dropDown, .LD4kJcnhgnIGIqayNLFX .u9LQkNKePnbYghLuVYIE .kmZUfpW_5VwiPUSq5zQ2, .main-contextMenu-menu, .a2ruVaZt_DdrdHz3GqgU, .x-categoryCard-CategoryCard, .JdlKTdpMquftpMwwegZo, .main-heroCard-card, .main-trackList-trackListRow, .pI6Qf_QH5K9jtZ1uwmYf, .L4WROPnQ7MPGhylvVyxd, .queue-tabBar-headerItemLink, .oQGUr6fmgmlPARqBIeBa, .PzcmS_Z8j0D6n3ZEmv20, .xaKMcFuZK3bEXbt3bPdg, .IyZpbhJE52K9fkJmGbAj, .main-playlistEditDetailsModal-container, .main-playlistEditDetailsModal-descriptionTextarea, .main-buttons-button, .wCl7pMTEE68v1xuZeZiB:focus, .wCl7pMTEE68v1xuZeZiB:hover, .Z35BWOA10YGn5uc9YgAp, .Z35BWOA10YGn5uc9YgAp .zXwER4Lsqq_e7fVVaPkZ, .Z35BWOA10YGn5uc9YgAp .WWDxafTPs4AgThdcX5jN, .TT1tIewS2iI8Uz8kLuQB, .main-yourEpisodes-coverContainer, .YbDIZ84mS7tzHr1tgWE9, .OGlItsrPs4zmZvTe8uCl, .x-progressBar-progressBarBg, .w699O0LgQRghXyl3bs9u, .EJ0w02DsWAFRB6erLz4g, .eRA1lFgEi72O3fgeEpwl, .dLvkpxjslIRQbk1CwUmA.Q4Tjljkt3LIpk7eBBKgp, .dLvkpxjslIRQbk1CwUmA:focus, .dLvkpxjslIRQbk1CwUmA:hover, .y5Q6GstKP0D4WfhjB7vA .SQCi7xTgUFYzi5kYW7YG, .main-keyboardShortcutsHelpModal-key, .EhyK_jJzB2PcWXd5lg24, .kUkjSLUuPyag37OAbVPH, .zi377dMLSwXnFiejYnRa.aIWRvSjvEN4rTMCIi4vG, .G8UNZJv4HT1kOIolA_e7, .main-notificationBubble-NotificationBubble, .main-yourEpisodesButton-yourEpisodesIcon, .main-trackCreditsModal-container, .pIZVZOfjnJGth1BcoA1E, .lbsIMA, .j1BMy6Uh7sBoeNA18Rrh, .epWhU7hHGktzlO_dop6z {border-radius: var(--border-radius) !important;}
+.main-dropDown-dropDown, .LD4kJcnhgnIGIqayNLFX .u9LQkNKePnbYghLuVYIE .kmZUfpW_5VwiPUSq5zQ2, .main-contextMenu-menu, .a2ruVaZt_DdrdHz3GqgU, .x-categoryCard-CategoryCard, .JdlKTdpMquftpMwwegZo, .main-heroCard-card, .main-trackList-trackListRow, .pI6Qf_QH5K9jtZ1uwmYf, .L4WROPnQ7MPGhylvVyxd, .queue-tabBar-headerItemLink, .oQGUr6fmgmlPARqBIeBa, .PzcmS_Z8j0D6n3ZEmv20, .xaKMcFuZK3bEXbt3bPdg, .IyZpbhJE52K9fkJmGbAj, .main-playlistEditDetailsModal-container, .main-playlistEditDetailsModal-descriptionTextarea, .main-buttons-button, .wCl7pMTEE68v1xuZeZiB:focus, .wCl7pMTEE68v1xuZeZiB:hover, .Z35BWOA10YGn5uc9YgAp, .Z35BWOA10YGn5uc9YgAp .zXwER4Lsqq_e7fVVaPkZ, .Z35BWOA10YGn5uc9YgAp .WWDxafTPs4AgThdcX5jN, .TT1tIewS2iI8Uz8kLuQB, .main-yourEpisodes-coverContainer, .YbDIZ84mS7tzHr1tgWE9, .OGlItsrPs4zmZvTe8uCl, .x-progressBar-progressBarBg, .w699O0LgQRghXyl3bs9u, .EJ0w02DsWAFRB6erLz4g, .eRA1lFgEi72O3fgeEpwl, .dLvkpxjslIRQbk1CwUmA.Q4Tjljkt3LIpk7eBBKgp, .dLvkpxjslIRQbk1CwUmA:focus, .dLvkpxjslIRQbk1CwUmA:hover, .y5Q6GstKP0D4WfhjB7vA .SQCi7xTgUFYzi5kYW7YG, .main-keyboardShortcutsHelpModal-key, .EhyK_jJzB2PcWXd5lg24, .kUkjSLUuPyag37OAbVPH, .zi377dMLSwXnFiejYnRa.aIWRvSjvEN4rTMCIi4vG, .G8UNZJv4HT1kOIolA_e7, .main-notificationBubble-NotificationBubble, .main-yourEpisodesButton-yourEpisodesIcon, .main-trackCreditsModal-container, .pIZVZOfjnJGth1BcoA1E, .lbsIMA, .j1BMy6Uh7sBoeNA18Rrh, .epWhU7hHGktzlO_dop6z, .marketplace-tabBar-headerItemLink, .searchbar-bar, .marketplace-grid .main-card-draggable .main-card-cardMetadata li.marketplace-card__tag, .main-embedWidgetGenerator-container, .x-toggle-indicatorWrapper {border-radius: var(--border-radius) !important;}
 
 /* Does not mess with artists background; only changes colour of playlist/other backgrounds behind cover photo & name */
 #main > div > div.Root__top-container > div.Root__main-view > div.main-view-container > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > main > section > div.contentSpacing.main-entityHeader-container.main-entityHeader-nonWrapped > div {background: var(--spice-misc) !important;}
@@ -116,6 +117,16 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 :root #context-menu ul button:not(.main-contextMenu-disabled):focus, :root #context-menu ul button:not(.main-contextMenu-disabled):hover, :root #context-menu ul button[aria-expanded=true], :root #context-menu ul a:not(.main-contextMenu-disabled):focus, :root #context-menu ul a:not(.main-contextMenu-disabled):hover, :root #context-menu ul a[aria-expanded=true] {background-color: var(--spice-button); transition: 150ms background-color;}
 
 /* --> Extension Tweaks <-- */
+
+/* Marketplace Extension sidebar container */
+.main-navBar-navBarLink[href="/spicetify-marketplace"] {display: block !important;}
+.main-navBar-navBarItem .collection-active-icon, .main-navBar-navBarItem .collection-icon, .main-navBar-navBarItem .home-active-icon, .main-navBar-navBarItem .home-icon, .main-navBar-navBarItem .search-active-icon, .main-navBar-navBarItem .search-icon {height: 6px;}
+/* Marketplace section containers */
+.GenericModal[aria-label=Marketplace] .main-embedWidgetGenerator-container {background: var(--spice-background)}
+.marketplace-settings-button {background-color: var(--spice-shadow);}
+.marketplace-tabBar-active {background-color: var(--spice-button)}
+.searchbar-bar {height: 25px;}
+
 /* Bookmark container */
 :root #bookmark-menu .bookmark-filter {background-color: var(--spice-secondary)!important; border-radius: var(--border-radius)!important;}
 #bookmark-menu {background: var(--spice-card) !important; padding-bottom: 5px !important; box-shadow: 0px 0px 0px 0px transparent !important;}
@@ -424,7 +435,7 @@ button.main-moreButton-button:hover, .wCl7pMTEE68v1xuZeZiB:focus, .wCl7pMTEE68v1
   background-color: transparent;
 }
 :root .Root__nav-bar ul.main-navBar-entryPoints > li a svg {
-  display: none;
+    display: none !important;
 }
 :root .Root__nav-bar ul.main-navBar-entryPoints > li:first-child a {
   border-radius: var(--border-radius) var(--border-radius) 0 0;
