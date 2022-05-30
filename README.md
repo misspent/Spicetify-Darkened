@@ -6,8 +6,11 @@
 
 <h1 align="center">📥 Installation</h1>
 
-⭐ Spotify Version: [Spotify v1.1.76.447](https://spotify.en.uptodown.com/windows/download/4246989) --> VirusTotal: [Results](https://www.virustotal.com/gui/file/875879c06a8c9096db2d7ad56c60703f54c5ed39cc61730a72f7096cdbc89720)  
+<div align="center">
+ 
+⭐ **Spotify Version**: [Spotify v1.1.76.447](https://spotify.en.uptodown.com/windows/download/4246989) --> VirusTotal: [Results](https://www.virustotal.com/gui/file/875879c06a8c9096db2d7ad56c60703f54c5ed39cc61730a72f7096cdbc89720)  
 ⭐ You **WILL** need this to use this theme on spotify: [Spicetify](https://spicetify.app/) | [Spicetify GitHub](https://github.com/khanhas/spicetify-cli)
+ </div>
 
 Make sure [Git](https://git-scm.com/) is installed, then go into your `Themes` folder in `.spicetify` then do:
 ```
