@@ -1,23 +1,9 @@
 /* Noteless's optional/changeable? ones you might want to mess with */
 
-.G1W6k59msDX3wNFCJ1mb {background: #252525;} /* Buttons */
-.main-navBar-navBarItem[data-id="/spicetify-marketplace"] {display: none;} /* Marketplace extension */
-.os-scrollbar-handle {display: none !important;} /* Scrollbar */
-.G1W6k59msDX3wNFCJ1mb:hover, .G1W6k59msDX3wNFCJ1mb.X1PI4ZcmJchyHhBzbrVI, .G1W6k59msDX3wNFCJ1mb {border: 0px solid transparent;} /* Certain buttons | Default: var(--spice-button) */
-.G1W6k59msDX3wNFCJ1mb:focus, .G1W6k59msDX3wNFCJ1mb:hover {filter: brightness(120%);} /* Button colour when hovering */
+.main-navBar-navBarItem[data-id="/spicetify-marketplace"] {display: none;} /* Marketplace extension | block = on */
 .progress-bar__slider{display: none;} /* Progress bar slider [Change to: "block" for slider] */
-/* 1st = search tab section | 2nd = Create playlist icon | 3rd = Liked songs section | 4th = Your Episodes Icon | 5th = Delete ONLY if you remove 2,3 & 4. ["none" = remove] ["relative" = normal] */
-[href="/search"], .main-createPlaylistButton-createPlaylistIcon, .main-likedSongsButton-likedSongsIcon, .main-yourEpisodesButton-yourEpisodesIcon,
-div.GlueDropTarget.personal-library {display: relative;}
-/* Edit modal focus colour when you change name of playlist/description */
-.main-playlistEditDetailsModal-textElement:focus {
-  background-color: #7027de33; /* Change this one */
-  border: 1px solid var(--spice-button);}
-/* hovering over songs in your playlists (tracklist) */
-.main-trackList-trackListRow.main-trackList-selected:hover, .main-trackList-trackListRow:hover {background-color: rgba(var(--spice-rgb-button), .3);}
-.main-trackList-trackListRow.main-trackList-selected {background-color: rgba(var(--spice-rgb-button), .2)}
-/* Active song name colour in playlists */
-.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowMarker, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker {color: #1DB954;}
+.os-scrollbar-handle {display: none !important;} /* Scrollbar */
+.G1W6k59msDX3wNFCJ1mb {background: #252525;} /* Buttons */
 
 /*
 \==================================================================================\
@@ -52,7 +38,6 @@ div.GlueDropTarget.personal-library {display: relative;}
 :root .Root__nav-bar {background: var(--spice-other) !important; border-right: 1px solid var(--spice-shadow); overflow: hidden;} /* Sidebar */
 /* .main-entityHeader-headerText {margin-top: 20px !important;}  Playlist cover photo position on artists page */
 /* .oq1ci28WPaRsWkvRiB_J .Ws8Ec3GREpT5PAUesr9b .CmkY1Ag0tJDfnFXbGgju {margin-top: 15px !important;}  Playlist cover photo position */
-.main-entityHeader-imageContainer .CmkY1Ag0tJDfnFXbGgju .main-yourEpisodes-coverContainer {margin-top: 30px !important;} /* Playlist cover photo Your Episodes Page */
 .kHu_FTRgoBLSLeAJtyKY {display: none;} /* removes "cover/change photo mask when hovering over icon in playlist & others */
 .We1fExPHxLIRmV0rZGNo, .bIdE4uyGCyx2bz0mzF4Z, .I1cppg1eJlgG6FCdhjO3, .euOnte9wvOF0D_SGxEZ9, .sbU_cIh6kQUanX3IUWD8, .main-view-container, .ojLwFoBNBM6cW7_RpeAN, .rezqw3Q4OEPB1m4rmwfw, .main-home-homeHeader, .main-actionBarBackground-background, .iB16LxoPzDeVZo8zPhPQ {background: var(--spice-secondary) !important;} /* Main colours */
 .main-trackList-trackList {background-color: var(--spice-other); border-radius: var(--border-radius);} /* Tracklist background in your playlist (title | album | date added) */
@@ -60,6 +45,8 @@ div.GlueDropTarget.personal-library {display: relative;}
 .main-topBar-overlay, .main-topBar-background {background: var(--spice-other) !important; opacity: 0 !important;} /* background behind playlist icon, description, name etc (top) */
 :root .Root__nav-bar .main-rootlist-rootlist .os-content {padding: 0px !important;} /* whole "playlist" sidebar container */
 .main-card-cardMetadata, .main-card-draggable, .Z35BWOA10YGn5uc9YgAp {background: var(--spice-card);} /* Delete if you have to you (card info container colour + artist background big container) */
+.G1W6k59msDX3wNFCJ1mb:hover, .G1W6k59msDX3wNFCJ1mb.X1PI4ZcmJchyHhBzbrVI, .G1W6k59msDX3wNFCJ1mb {border: 0px solid transparent;} /* Certain buttons | Default: var(--spice-button) */
+.G1W6k59msDX3wNFCJ1mb:focus, .G1W6k59msDX3wNFCJ1mb:hover {filter: brightness(120%);} /* Button colour when hovering */
 
 .main-userWidget-box, .main-topBar-historyButtons .main-topBar-button {background-color: var(--spice-navbar-buttons);}
 /* .aAr9nYtPsG7P2LRzciXc:hover, .fBTYgGyvIbHizHIj7AAX {border: 0px;} */
@@ -115,6 +102,13 @@ html:not(.no-focus-outline) .main-trackList-trackListRow:focus-within {border-co
 .Uw9aTbBCa7QzSsZSGAG5 {color: var(--spice-text); background: var(--spice-primary);}
 /* Context menu hover background */
 :root #context-menu ul button:not(.main-contextMenu-disabled):focus, :root #context-menu ul button:not(.main-contextMenu-disabled):hover, :root #context-menu ul button[aria-expanded=true], :root #context-menu ul a:not(.main-contextMenu-disabled):focus, :root #context-menu ul a:not(.main-contextMenu-disabled):hover, :root #context-menu ul a[aria-expanded=true] {background-color: var(--spice-button); transition: 150ms background-color;}
+/* Edit modal focus colour when you change name of playlist/description */
+.main-playlistEditDetailsModal-textElement:focus {background-color: rgba(var(--spice-rgb-button), .13); border: 1px solid var(--spice-button);}
+/* hovering over songs in your playlists (tracklist) */
+.main-trackList-trackListRow.main-trackList-selected:hover, .main-trackList-trackListRow:hover {background-color: rgba(var(--spice-rgb-button), .3);}
+.main-trackList-trackListRow.main-trackList-selected {background-color: rgba(var(--spice-rgb-button), .2)}
+/* Active song name colour in playlists */
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowMarker, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker {color: #1DB954;}
 
 /* --> Extension Tweaks <-- */
 
