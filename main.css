@@ -1,4 +1,4 @@
-/* Noteless's optional/changeable? ones you might want to mess with */
+/* ==========> Noteless's optional tweaks <========== */
 
 .main-navBar-navBarItem[data-id="/spicetify-marketplace"] {display: none;} /* Marketplace extension | block = on */
 .progress-bar__slider{display: none;} /* Progress bar slider [Change to: "block" for slider] */
@@ -19,7 +19,7 @@
 
 /* Icons/Button | Add Playlist, Liked Songs & Your Episodes */
 .main-createPlaylistButton-text, .main-collectionLinkButton-collectionLinkText {display: none;}
-.main-rootlist-rootlist, .main-rootlist-rootlistContent {display: block;}
+.main-rootlist-rootlist, .main-rootlist-rootlistContent {display: block; margin-top: 8px;}
 #main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div.GlueDropTarget.GlueDropTarget--albums.GlueDropTarget--tracks.GlueDropTarget--local-tracks.GlueDropTarget--episodes, #main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div:nth-child(2), #main > div > div.Root__top-container > nav > div.main-navBar-navBar > div.main-rootlist-rootlist > div > div:nth-child(3) {display: table-cell; margin: 0px; padding-bottom: 8px; padding-left: 57%;}
 .main-createPlaylistButton-button, .main-collectionLinkButton-collectionLinkButton {padding: 0px;}
 ._fvd5Owa47kK9H48h7mL, .main-createPlaylistButton-createPlaylistIcon {border-radius: var(--border-radius); color: #909090;} /* Create playlist icon */
