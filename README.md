@@ -34,6 +34,8 @@ y
 * ✔️ Customizable
 * ✔️ Dark + Dark purple
 * ✔️ Bookmark extension support
+* ✔️ Marketplace extension support
+* ✔️ Pop-up Lyrics extension support
 * ✔️ Doesn't change artists banners
 * ✔️ It *should* stay up-to-date as I use Spotify daily
 * ❌ Premium only (It may break/look odd without, I'm not sure)
