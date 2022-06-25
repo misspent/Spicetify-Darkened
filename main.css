@@ -4,6 +4,7 @@
 .progress-bar__slider{display: none;} /* Progress bar slider [Change to: "block" for slider] */
 .os-scrollbar-handle {display: none !important;} /* Scrollbar */
 .G1W6k59msDX3wNFCJ1mb {background: #252525;} /* Buttons */
+.gmCHRs {display: none !important;} /* Enhance button | none = removed | inline-block = on */
 
 /*
 \==================================================================================\
