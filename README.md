@@ -1,10 +1,10 @@
 # ⚠️ Outdated
 
-![Darkened Spicetify]()
+![Darkened Spicetify](https://user-images.githubusercontent.com/78914154/156931758-f874078f-910c-49e2-bbf9-10b77cf81054.png)
 
 <h1 align="center">Preview</h1>
 
-![Spotify Playlist section New]()
+![Spotify Playlist section New](https://user-images.githubusercontent.com/78914154/167723337-649fc9a7-2db3-4204-94c2-50a9b9aca81d.png)
 
 <h1 align="center">📥 Installation</h1>
 
@@ -50,10 +50,10 @@ I have no intentions of using odd extensions with Spotify as I use it purely for
 
 <h1 align="center", margin= "0">📷 More Screenshots</h1>
 
-![Spotify Artists Profile section](https://user-images.githubusercontent.com/78914154/168274765-2b852cb8-96b8-4fd6-b0fd-bb772eeec0fb.png)
-![Spotify Search Page section](https://user-images.githubusercontent.com/78914154/170059028-3bd45fed-2d9f-40d8-9d83-07d3b134ed19.png)
-![Spotify Your Library section](https://user-images.githubusercontent.com/78914154/168083357-154390cd-733b-4685-af1f-bb55dc75245f.png)
-![Spotify Search section](https://user-images.githubusercontent.com/78914154/168083373-4f067378-7dce-4dbb-a1ce-c35c2db78f90.png)
+![Spotify Artists Profile section]()
+![Spotify Search Page section]()
+![Spotify Your Library section]()
+![Spotify Search section]()
 
 <h1 align="center">📜 Credits</h1>
 
