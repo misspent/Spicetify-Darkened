@@ -1,8 +1,10 @@
-![Darkened Spicetify](https://user-images.githubusercontent.com/78914154/156931758-f874078f-910c-49e2-bbf9-10b77cf81054.png)
+# ⚠️ Outdated
+
+![Darkened Spicetify]()
 
 <h1 align="center">Preview</h1>
 
-![Spotify Playlist section New](https://user-images.githubusercontent.com/78914154/167723337-649fc9a7-2db3-4204-94c2-50a9b9aca81d.png)
+![Spotify Playlist section New]()
 
 <h1 align="center">📥 Installation</h1>
 
