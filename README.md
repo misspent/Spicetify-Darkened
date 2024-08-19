@@ -1,6 +1,10 @@
-# ⚠️ Outdated
-
 ![Darkened Spicetify](https://user-images.githubusercontent.com/78914154/156931758-f874078f-910c-49e2-bbf9-10b77cf81054.png)
+
+
+<details>
+  <summary align="center">⚠️ Outdated</summary>
+  <br>
+
 
 <h1 align="center">Preview</h1>
 
@@ -59,3 +63,6 @@ I have no intentions of using odd extensions with Spotify as I use it purely for
 
 As usual, I decided to take what Nyria made and make my "own" version of it. Moreover, I also took some of his installation section as I'm lazy, and he did it the way I would've done it. If you can't tell already, his themes are to die for, but I like them dark, not blue/bright. Thank you Nyria and keep up the great work!
 * The original/base theme: [Nyria's Theme](https://github.com/NYRI4/Comfy-spicetify).
+
+
+</details>
